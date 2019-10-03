@@ -15,7 +15,7 @@ navbarPage("Airbnb Shiny App Project",
                         
                         
                         absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
-                                      draggable = TRUE, top = 50, left = 0, right = 0, bottom = "auto",
+                                      draggable = TRUE, top = 50, left = 0, right = 40, bottom = "auto",
                                       width = 300, height = "auto", h3("Please Specify:"),
                                       selectInput("Neighborhoods", label = h4("Neighborhoods"), 
                                                   choices = list("all neighborhoods", "Central Harlem", 
