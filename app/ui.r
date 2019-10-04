@@ -11,9 +11,9 @@ navbarPage("Airbnb Shiny App Project",
            tabPanel("page 1",
                     
                     div(class="outer",
-                        tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0}"),
-                        
-                        
+                        tags$style(".outer {position: fixed; top: 41px; left: 0; right: 0; bottom: 0; overflow: hidden; padding: 0}"),
+                        #leafletOutput("map", width = "100%", height = "100%"), 
+                        #^^^ uncomment this line to load MAP in the UI; will work when leaflet in the server.R is fixed
                         absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
                                       draggable = TRUE, top = 50, left = 0, right = 40, bottom = "auto",
                                       width = 300, height = "auto", h3("Please Specify:"),
