@@ -17,16 +17,17 @@ The **learning goals** for this project is:
 
 *The above general statement about project 2 can be removed once you are finished with your project. It is optional.
 
-## Project Title Lorem ipsum dolor sit amet
+## An Analysis of Airbnb's in Manhattan
 Term: Fall 2019
 
-+ Team #
++ Team : Section 1 Group 3
 + **Projec title**: + Team members
 	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
+	+ Xiwen Chen, xc2463@columbia.edu
+	+ Daniel Weiss, dmw2180@columbia.edu
+        + Nichole Yao, yy2860@columbia.edu
+        + Justine Zhang, yz3420@columbia.edu
+        + Jerry Zhang, jz2966@columbia.edu
 
 + **Project summary**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
