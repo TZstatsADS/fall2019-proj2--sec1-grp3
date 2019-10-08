@@ -8,7 +8,7 @@ library(ggplot2)
 navbarPage("Airbnb Recommendation",
            ######Page 1 ##################
            
-           tabPanel("Cultural Centers",
+           tabPanel("Overview",
                     div(class="outer",
                         tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0; opacity: 0.92}"),
                         leafletOutput("map1",height = 800, width = 'auto'),
@@ -25,6 +25,7 @@ navbarPage("Airbnb Recommendation",
                                       sliderInput("Price", "$/night", label = "What is your nightly price range?",
                                                   min = 0, max = 500, value = 100, step=1)
                         ))),
+
            tabPanel("Dining Options",
                     div(class="outer",
                         tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0; opacity: 0.92}"),
@@ -48,6 +49,7 @@ navbarPage("Airbnb Recommendation",
                                                                  "Theater",
                                                                  "Visual Arts", "Museum"), selected = "All Days")
                         ))),
+
            ######Page 2 ##################
            tabPanel("Customization",
                     
@@ -85,9 +87,9 @@ navbarPage("Airbnb Recommendation",
                                                                  "10 nights", 
                                                                  "30 nights",
                                                                  "Long stay: > 50 nights"
-                                                  ), selected = "Weekend")                                     
-                          #            sliderInput("rating_range", label = h4("Rating"),
-                           #                       min = 0, max = 1, value = c(0, 0.8))
+                                                  ), selected = "Weekend"),                                     
+                                      sliderInput("rating_range", label = h4("Rating"),
+                                                  min = 0, max = 1, value = 0.8)
                     ))), 
            
            tabPanel("Contact",fluidPage(

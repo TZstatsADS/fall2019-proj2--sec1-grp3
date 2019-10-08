@@ -2,7 +2,6 @@
 
 library(shiny)
 library(choroplethr)
-#library(choroplethrZip)
 library(dplyr)
 library(leaflet)
 library(maps)
@@ -18,21 +17,24 @@ delete_cult_name <- c('State', 'City', 'Main.Phone..', 'Council.District', 'Cens
 processed_cult_data <- orig_cultural_data[,!(names(orig_cultural_data) %in% delete_cult_name)]
 
 ## Page2
-listings_data <- read.csv("listings.csv", header=TRUE, sep=",")
+listings_data <- read.csv("listings_new.csv", header=TRUE, sep=",")
 load('nyc_nbhd.RData')
 bins <- c(80, 100, 120, 140, 160, 180,200)
 bound<- geojsonio::geojson_read("Borough Boundaries.geojson", what = "sp")
 pal <- colorBin("YlOrRd", domain = states$density, bins = bins)
+
 ########### PAGE 1 SCRIPTS ###############
 
 rest_cult_data <-read.csv("../data/rest_and_cult_data.csv")
 
 
 ########### PAGE 2 SCRIPTS ###############
+
 delete_name <- c('host_id', "host_name", "last_review", "reviews_per_month", 
                  "calculated_host_listings_count", "availability_365" )
 listings <- listings_data[,!(names(listings_data) %in% delete_name)]
 listings$room_size <- NA
+listings<- listings %>% filter(rating > 0)
 listings <- listings%>%
   mutate(room_size = ifelse(grepl('Entire', listings$room_type),10,
                             ifelse(grepl('Private', listings$room_type),5,
@@ -92,26 +94,15 @@ labels <- sprintf(
 ) %>% lapply(htmltools::HTML)
 
 popup1 = paste0('<strong>Price($/night): </strong><br>', listings$price, 
-                '<br><strong>Number of Reviews:</strong><br>', listings$number_of_reviews)
+                '<br><strong>Number of Reviews:</strong><br>', listings$number_of_reviews,
+                '<br><strong>Airbnb URL:</strong><br>', listings$listing_url)
 
 ##########################################
 shinyServer(function(input, output) {
   ## Panel 1: leaflet
   output$map1 <- renderLeaflet({
     map_load <-  processed_cult_data # %>% filter(Discipline == 'Music')
-    if (input$Centers == "Music"){
-      map_load <-  processed_cult_data %>% filter(Discipline == 'Music')
-    }
     
-    if (input$Centers == "Theater"){
-      map_load <-  processed_cult_data %>% filter(Discipline == 'Theater')
-    }
-    if (input$Centers == "Visual Arts"){
-      map_load <-  processed_cult_data %>% filter(Discipline == 'Visual Arts')
-    }
-    if (input$Centers == "Museum"){
-      map_load <-  processed_cult_data %>% filter(Discipline == 'Museum')
-    }
     #if (input$Centers )
     leaflet(map_load) %>% addTiles()%>% addProviderTiles("CartoDB.Positron")%>% addCircles(lng = ~Longitude, lat = ~Latitude)
     
@@ -150,7 +141,7 @@ shinyServer(function(input, output) {
       else if (input$night == '30 nights')
       {h<- h %>% filter(minimum_nights<=30)}   
 
- #     h <- h %>% filter(rating > input$rating_range[1] && rating<input$rating_range[2])
+      h <- h %>% filter(rating >= input$rating_range)
       
       
       if(input$Neighbor =="None Selected" & input$Room_Type=="None Selected"){
