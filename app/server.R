@@ -25,10 +25,7 @@ bound<- geojsonio::geojson_read("Borough Boundaries.geojson", what = "sp")
 pal <- colorBin("YlOrRd", domain = states$density, bins = bins)
 ########### PAGE 1 SCRIPTS ###############
 
-
-
-
-
+rest_cult_data <-read.csv("../data/rest_and_cult_data.csv")
 
 
 ########### PAGE 2 SCRIPTS ###############
@@ -119,6 +116,17 @@ shinyServer(function(input, output) {
     leaflet(map_load) %>% addTiles()%>% addProviderTiles("CartoDB.Positron")%>% addCircles(lng = ~Longitude, lat = ~Latitude)
     
   })
+  
+  ##
+  
+  
+  output$page_map <- renderLeaflet({
+    map_load2 <-  rest_cult_data # %>% filter(Discipline == 'Music')
+    leaflet(map_load2) %>% addTiles()%>% addProviderTiles("CartoDB.Positron")%>% addCircles(lng = ~Longitude, lat = ~Latitude)
+    
+  })
+  
+  
   ## Panel 2: leaflet
   output$mymap2 <- renderLeaflet({
       h <- listings
