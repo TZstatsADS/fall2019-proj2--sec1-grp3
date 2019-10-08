@@ -1,0 +1,12 @@
+name: app_new
+title: app_new
+username:
+account: jujuzyt
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1297676
+bundleId: 2481497
+url: https://jujuzyt.shinyapps.io/app_new/
+when: 1570566698.73324
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,12 @@
+name: Airbnb
+title:
+username:
+account: jujuzyt
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1292497
+bundleId: 2478207
+url: https://jujuzyt.shinyapps.io/Airbnb/
+when: 1570489834.9795
+asMultiple: FALSE
+asStatic: FALSE
