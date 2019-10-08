@@ -102,7 +102,19 @@ shinyServer(function(input, output) {
   ## Panel 1: leaflet
   output$map1 <- renderLeaflet({
     map_load <-  processed_cult_data # %>% filter(Discipline == 'Music')
+    if (input$Centers == "Music"){
+      map_load <-  processed_cult_data %>% filter(Discipline == 'Music')
+    }
     
+    if (input$Centers == "Theater"){
+      map_load <-  processed_cult_data %>% filter(Discipline == 'Theater')
+    }
+    if (input$Centers == "Visual Arts"){
+      map_load <-  processed_cult_data %>% filter(Discipline == 'Visual Arts')
+    }
+    if (input$Centers == "Museum"){
+      map_load <-  processed_cult_data %>% filter(Discipline == 'Museum')
+    }
     #if (input$Centers )
     leaflet(map_load) %>% addTiles()%>% addProviderTiles("CartoDB.Positron")%>% addCircles(lng = ~Longitude, lat = ~Latitude)
     

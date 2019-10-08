@@ -8,7 +8,7 @@ library(ggplot2)
 navbarPage("Airbnb Recommendation",
            ######Page 1 ##################
            
-           tabPanel("Overview",
+           tabPanel("Cultural Centers",
                     div(class="outer",
                         tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0; opacity: 0.92}"),
                         leafletOutput("map1",height = 800, width = 'auto'),
@@ -25,7 +25,21 @@ navbarPage("Airbnb Recommendation",
                                       sliderInput("Price", "$/night", label = "What is your nightly price range?",
                                                   min = 0, max = 500, value = 100, step=1)
                         ))),
-           
+           tabPanel("Dining Options",
+                    div(class="outer",
+                        tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0; opacity: 0.92}"),
+                        absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
+                                      draggable = TRUE, top = 50, left = 0, right = 40, bottom = "auto",
+                                      width = 300, height = "auto", h3("Please Specify:"),
+                                      selectInput("Cuisine", label = h4("Cuisine"), 
+                                                  choices = list("All Cuisine",
+                                                                 "American", 
+                                                                 "Mexican",
+                                                                 "Chinese", "Korean", "Japanese", "Italian"), selected = "All Days"),
+                                      
+                                      sliderInput("Price", "$/night", label = "What is your nightly price range?",
+                                                  min = 0, max = 500, value = 100, step=1)
+                        ))),
            ######Page 2 ##################
            tabPanel("Customization",
                     
