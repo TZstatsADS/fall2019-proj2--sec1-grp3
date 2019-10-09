@@ -1,3 +1,4 @@
+
 library(shiny)
 library(leaflet)
 library(ggplot2)
@@ -23,9 +24,10 @@ navbarPage("Airbnb Recommendation",
                                                                  "Visual Arts", "Museum"), selected = "All Days"),
                                       
                                       sliderInput("Price", "$/night", label = "What is your nightly price range?",
-                                                  min = 0, max = 500, value = 100, step=1)
+                                                  min = 0, max = 500, value = 100, step=1),
+                                      sliderInput("rating_sadrange", label = h4("Rating"), min = 0, max = 1, value = 0.8)
                         ))),
-
+           
            tabPanel("Dining Options",
                     div(class="outer",
                         tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0; opacity: 0.92}"),
@@ -36,12 +38,16 @@ navbarPage("Airbnb Recommendation",
                                       width = 300, height = "auto", h3("Select:"),
                                       checkboxInput("rest_checkbox", label = "View Restauraunts", 
                                                     value = TRUE),
-                                      checkboxInput("cult_checkbox", label = "View Cultural Centers?", 
-                                                    value = TRUE),
+                                      
                                       selectInput("Cuisine", label = h4("Cuisine"), 
                                                   choices = list("All Cuisine",
                                                                  "American", "Mexican", "Chinese", "Korean", "Japanese",
                                                                  "Italian", "Vietnamese", "Healthy", "Pizza", "Thai"), selected = "All Days"),
+                                      sliderInput("rest_range", label = h4("Yelp Rating"),
+                                                  min = 0, max = 5, value = c(3, 4)),
+                                      
+                                      checkboxInput("cult_checkbox", label = "View Cultural Centers?", 
+                                                    value = TRUE),
                                       
                                       selectInput("Centers", label = h4("Centers"), 
                                                   choices = list("All Cultural Centers",
@@ -49,7 +55,7 @@ navbarPage("Airbnb Recommendation",
                                                                  "Theater",
                                                                  "Visual Arts", "Museum"), selected = "All Days")
                         ))),
-
+           
            ######Page 2 ##################
            tabPanel("Customization",
                     
@@ -90,7 +96,7 @@ navbarPage("Airbnb Recommendation",
                                                   ), selected = "Weekend"),                                     
                                       sliderInput("rating_range", label = h4("Rating"),
                                                   min = 0, max = 1, value = 0.8)
-                    ))), 
+                        ))), 
            
            tabPanel("Contact",fluidPage(
              sidebarLayout(

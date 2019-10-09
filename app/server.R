@@ -120,31 +120,31 @@ shinyServer(function(input, output) {
   
   ## Panel 2: leaflet
   output$mymap2 <- renderLeaflet({
-      h <- listings
-      if(input$Neighbor =="None Selected" & input$Room_Type=="None Selected"){
-        h <- NULL
-      }
-      if (input$Neighbor != 'All Neighborhoods') 
-      {h<- listings %>% filter(neighbourhood_group == input$Neighbor)}
-      
-      if (input$Room_Type != 'All Types')
-      {h <- h %>% filter(room_type == input$Room_Type)}
-      
-      h <- h %>% filter(price > input$price_range[1] && price<input$price_range[2])
-      
-      if (input$night == '1 night') 
-      {h<- h %>% filter(minimum_nights<=1)}
-      else if (input$night == 'Weekend')
-      {h<- h %>% filter(minimum_nights<=3)}
-      else if (input$night == '10 nights')
-      {h<- h %>% filter(minimum_nights<=10)}  
-      else if (input$night == '30 nights')
-      {h<- h %>% filter(minimum_nights<=30)}   
-
-      h <- h %>% filter(rating >= input$rating_range)
-      
-      
-      if(input$Neighbor =="None Selected" & input$Room_Type=="None Selected"){
+    h <- listings
+    if(input$Neighbor =="None Selected" & input$Room_Type=="None Selected"){
+      h <- NULL
+    }
+    if (input$Neighbor != 'All Neighborhoods') 
+    {h<- listings %>% filter(neighbourhood_group == input$Neighbor)}
+    
+    if (input$Room_Type != 'All Types')
+    {h <- h %>% filter(room_type == input$Room_Type)}
+    
+    h <- h %>% filter(price > input$price_range[1] && price<input$price_range[2])
+    
+    if (input$night == '1 night') 
+    {h<- h %>% filter(minimum_nights<=1)}
+    else if (input$night == 'Weekend')
+    {h<- h %>% filter(minimum_nights<=3)}
+    else if (input$night == '10 nights')
+    {h<- h %>% filter(minimum_nights<=10)}  
+    else if (input$night == '30 nights')
+    {h<- h %>% filter(minimum_nights<=30)}   
+    
+    h <- h %>% filter(rating >= input$rating_range)
+    
+    
+    if(input$Neighbor =="None Selected" & input$Room_Type=="None Selected"){
       leaflet(borough_price) %>%
         addTiles()%>%
         addPolygons(fillColor = ~palc_price(PriceMean),
@@ -166,23 +166,21 @@ shinyServer(function(input, output) {
                       direction = "auto"))%>%
         addProviderTiles("CartoDB.Positron")%>%
         addLegend(position = "topright",values = ~PriceMean, pal = palc_price , opacity = 1)
-      } else if (input$Neighbor != "None Selected" & input$Room_Type=="All Types"){     
-          leaflet(h) %>%
-          setView(long(input$Neighbor), lat(input$Neighbor), zoom(input$Neighbor))%>%
-          addProviderTiles("CartoDB.Positron") %>%
-          addCircles(lng = ~longitude, lat = ~latitude, radius = ~room_size, color = ~palc(room_size), stroke = T)%>%
-          addLegend(position = "topright",
-                    colors = c("#FEB24C","#e7152a","#2766c9"),
-                    labels = c('Shared Room','Private Room','Entire Home'),
-                    opacity = 0.6,
-                    title = 'Room Type')}else{leaflet(h) %>%
+    } else if (input$Neighbor != "None Selected" & input$Room_Type=="All Types"){     
+      leaflet(h) %>%
+        setView(long(input$Neighbor), lat(input$Neighbor), zoom(input$Neighbor))%>%
+        addProviderTiles("CartoDB.Positron") %>%
+        addCircles(lng = ~longitude, lat = ~latitude, radius = ~room_size, color = ~palc(room_size), stroke = T)%>%
+        addLegend(position = "topright",
+                  colors = c("#FEB24C","#e7152a","#2766c9"),
+                  labels = c('Shared Room','Private Room','Entire Home'),
+                  opacity = 0.6,
+                  title = 'Room Type')}else{leaflet(h) %>%
                       setView(long(input$Neighbor), lat(input$Neighbor), zoom(input$Neighbor))%>%
                       addProviderTiles("CartoDB.Positron") %>%
                       addCircles(lng = ~longitude, lat = ~latitude, popup = popup1, radius = ~room_size, color = ~palc(room_size), stroke = T)
-      
-      }    
+                    
+                  }    
   })
 })
-
-
 
