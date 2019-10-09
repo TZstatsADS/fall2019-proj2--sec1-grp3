@@ -26,7 +26,16 @@ pal <- colorBin("YlOrRd", domain = states$density, bins = bins)
 ########### PAGE 1 SCRIPTS ###############
 
 rest_cult_data <-read.csv("../data/rest_and_cult_data.csv")
+rest_data <- read.csv("../data/rest_data.csv")
+cult_data <- read.csv("../data/cult_data.csv")
 
+popup_rest = paste0('<strong>Name: </strong><br>', rest_data$Name, 
+                    '<br><strong>Cuisine:</strong><br>', rest_data$Type,
+                    '<br><strong>Yelp Rating:</strong><br>', rest_data$Rating,
+                    '<br><strong>Address:</strong><br>', rest_data$Address)
+popup_cult = paste0('<strong>Name: </strong><br>', cult_data$Name, 
+                    '<br><strong>Type:</strong><br>', cult_data$Type,
+                    '<br><strong>Address:</strong><br>', cult_data$Address)
 
 ########### PAGE 2 SCRIPTS ###############
 
@@ -97,6 +106,8 @@ popup1 = paste0('<strong>Price($/night): </strong><br>', listings$price,
                 '<br><strong>Number of Reviews:</strong><br>', listings$number_of_reviews,
                 '<br><strong>Airbnb URL:</strong><br>', listings$listing_url)
 
+
+
 ##########################################
 shinyServer(function(input, output) {
   ## Panel 1: leaflet
@@ -108,13 +119,88 @@ shinyServer(function(input, output) {
     
   })
   
-  ##
+  ###########
   
+  map_load2 <-  rbind(rest_data,cult_data)
   
+
   output$page_map <- renderLeaflet({
-    map_load2 <-  rest_cult_data # %>% filter(Discipline == 'Music')
-    leaflet(map_load2) %>% addTiles()%>% addProviderTiles("CartoDB.Positron")%>% addCircles(lng = ~Longitude, lat = ~Latitude)
     
+    if (input$Cuisine == 'American'){
+      rest_data <- rest_data %>% filter(Type == 'american')
+    }
+    else if (input$Cuisine == 'Chinese'){
+      rest_data <- rest_data %>% filter(Type == 'chinese')
+    }
+    else if (input$Cuisine == 'Korean'){
+      rest_data <- rest_data %>% filter(Type == 'korean')
+    }
+    else if (input$Cuisine == 'Vietnamese'){
+      rest_data <- rest_data %>% filter(Type == 'vietnamese')
+    }
+    else if (input$Cuisine == 'Pizza'){
+      rest_data <- rest_data %>% filter(Type == 'pizza')
+    }
+    else if (input$Cuisine == 'Mexican'){
+      rest_data <- rest_data %>% filter(Type == 'mexican')
+    }
+    else if (input$Cuisine == 'Japanese'){
+      rest_data <- rest_data %>% filter(Type == 'japanese')
+    }
+    else if (input$Cuisine == 'Healthy'){
+      rest_data <- rest_data %>% filter(Type == 'healthy')
+    }
+    else if (input$Cuisine == 'Italian'){
+      rest_data <- rest_data %>% filter(Type == 'italian')
+    }
+    else if (input$Cuisine == 'Thai'){
+      rest_data <- rest_data %>% filter(Type == 'thai')
+    }
+    
+    if (input$Centers == 'Music'){
+      cult_data <- cult_data %>% filter(Type == 'Music')
+    }
+    else if (input$Centers == 'Museum'){
+      cult_data <- cult_data %>% filter(Type == 'Museum')
+    }
+    else if (input$Centers == 'Theater'){
+      cult_data <- cult_data %>% filter(Type == 'Theater')
+    }
+    else if (input$Centers == 'Visual Arts'){
+      cult_data <- cult_data %>% filter(Type == 'Visual Arts')
+    }
+    
+    
+    
+    
+    output$yelp_slider <- renderPrint({ input$yelp_slider })
+    rest_data <- rest_data %>% filter(Rating >= input$yelp_slider[1])
+    rest_data <- rest_data %>% filter(Rating <= input$yelp_slider[2])
+    
+    
+    map_load2 <-  rbind(rest_data,cult_data)
+    
+    if (input$rest_checkbox == TRUE && input$cult_checkbox == FALSE) {
+      cult_data <- rest_data 
+    }
+    if (input$cult_checkbox == TRUE && input$rest_checkbox == FALSE) {
+      rest_data <- cult_data
+    }
+    
+    
+    #leaflet(map_load2) %>% addTiles()%>% addProviderTiles("CartoDB.Positron")%>% addCircles(lng = ~Longitude, lat = ~Latitude)
+    
+    FILE1 <- rest_data
+    FILE2 <- cult_data
+    
+    leaflet(rbind(FILE1, FILE2)) %>%
+      addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
+      addCircleMarkers(data = FILE1,
+                       color = '#ff5050', popup = popup_rest,
+                       opacity = 0.5, radius = 0.5) %>%
+      addCircleMarkers(data = FILE2,
+                       color = '#33ccff', popup = popup_cult,
+                       opacity = 0.5, radius = 0.5)
   })
   
   
