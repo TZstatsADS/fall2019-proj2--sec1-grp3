@@ -123,7 +123,7 @@ palc_price <- colorBin("YlOrRd", domain = borough_price$PriceMean, bins = bins)
 
 
 labels <- sprintf(
-  "Neighborhood: <strong>%s</strong><br/>Average Price: <strong>$%g/yr<sup></sup></strong>",
+  "Neighborhood: <strong>%s</strong><br/>Average Price: <strong>$%g/night<sup></sup></strong>",
   borough_price$boro_name, borough_price$PriceMean
 ) %>% lapply(htmltools::HTML)
 
