@@ -8,6 +8,7 @@ library(maps)
 library(rgdal)
 library(tigris)
 library(geojsonio)
+library(hash)
 
 
 ## LOAD DATA
@@ -36,6 +37,8 @@ popup_rest = paste0('<strong>Name: </strong><br>', rest_data$Name,
 popup_cult = paste0('<strong>Name: </strong><br>', cult_data$Name, 
                     '<br><strong>Type:</strong><br>', cult_data$Type,
                     '<br><strong>Address:</strong><br>', cult_data$Address)
+
+
 
 ########### PAGE 2 SCRIPTS ###############
 
@@ -181,26 +184,41 @@ shinyServer(function(input, output) {
     map_load2 <-  rbind(rest_data,cult_data)
     
     if (input$rest_checkbox == TRUE && input$cult_checkbox == FALSE) {
-      cult_data <- rest_data 
+      leaflet(rest_data) %>%
+        addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
+        addCircleMarkers(data = rest_data,
+                         color = '#ff5050', popup = popup_rest,
+                         opacity = 0.5, radius = 0.5)
+      
     }
-    if (input$cult_checkbox == TRUE && input$rest_checkbox == FALSE) {
-      rest_data <- cult_data
+
+    else if (input$cult_checkbox == TRUE && input$rest_checkbox == FALSE) {
+      leaflet(cult_data) %>%
+        addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
+        addCircleMarkers(data = cult_data,
+                         color = '#33ccff', popup = popup_cult,
+                         opacity = 0.5, radius = 0.5)
+      
+    }  
+      
+    else {
+      
+      FILE1 <- rest_data
+      FILE2 <- cult_data
+      
+      leaflet(rbind(FILE1, FILE2)) %>%
+        addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
+        addCircleMarkers(data = FILE1,
+                         color = '#ff5050', popup = popup_rest,
+                         opacity = 0.5, radius = 0.5) %>%
+        addCircleMarkers(data = FILE2,
+                         color = '#33ccff', popup = popup_cult,
+                         opacity = 0.5, radius = 0.5)
+      
     }
-    
     
     #leaflet(map_load2) %>% addTiles()%>% addProviderTiles("CartoDB.Positron")%>% addCircles(lng = ~Longitude, lat = ~Latitude)
-    
-    FILE1 <- rest_data
-    FILE2 <- cult_data
-    
-    leaflet(rbind(FILE1, FILE2)) %>%
-      addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
-      addCircleMarkers(data = FILE1,
-                       color = '#ff5050', popup = popup_rest,
-                       opacity = 0.5, radius = 0.5) %>%
-      addCircleMarkers(data = FILE2,
-                       color = '#33ccff', popup = popup_cult,
-                       opacity = 0.5, radius = 0.5)
+
   })
   
   
