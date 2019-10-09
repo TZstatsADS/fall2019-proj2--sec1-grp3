@@ -1,4 +1,4 @@
-﻿num,Name,Address,Postcode,Type,Latitude,Longitude,Category,Rating
+﻿num,Name,Address,Postcode,Type,latitude,longitude,Category,Rating
 1,46,46 Mott St,10013,chinese,40.71529303,-73.99864422,restaurant,4
 2,886,26 Saint Marks Pl,10003,thai,40.72877,-73.98873,restaurant,3.5
 3,1803,82 Reade St,10007,brunch,40.715498,-74.007178,restaurant,4
@@ -249,7 +249,6 @@
 248,Augustine,5 Beekman St,10038,dessert,40.71141,-74.006814,restaurant,4
 249,Aunt Jake's,149 Mulberry St,10013,italian,40.7190315,-73.9977161,restaurant,4.5
 250,Aunt Jake's,47 W 8th St,10011,italian,40.73329,-73.99852,restaurant,4
-251,Auntie Guan's Kitchen,219 E 23rd St,10011,chinese,40.73852,-73.98201,restaurant,4
 252,Auntie Guan's Kitchen 108,108 W 14th St,10011,vietnamese,40.73772135,-73.99741485,restaurant,5
 253,Aurora,70 Grand St,11249,italian,40.715621,-73.964757,restaurant,4.5
 254,Aurora Ristorante,60 Purchase St,10580,pizza,40.9837989,-73.684689,restaurant,4
@@ -1039,7 +1038,6 @@
 1038,DOMODOMO,140 W Houston St,10012,seafood,40.72803,-74.00167,restaurant,4
 1039,Don Angie,103 Greenwich Ave,10014,brunch,40.73778,-74.00197,restaurant,4
 1040,Don Antonio,309 W 50th St,10019,pizza,40.762711,-73.986708,restaurant,4.5
-1041,Don Ceviche,88 Essex St,10001,seafood,40.718295,-73.988123,restaurant,3.5
 1042,Don Chingon,216 Flatbush Ave,11217,mexican,40.68104312,-73.97524033,restaurant,4
 1043,Don Filippo Restaurant,1133 Lexington Ave,10021,pizza,40.774562,-73.958892,restaurant,4.5
 1044,Don Pancho Villa Restaurant,189 Borinquen Pl,11211,mexican,40.7109108,-73.9528503,restaurant,4
@@ -1604,7 +1602,6 @@
 1603,Her Name Is Han,17 E 31st St,10016,brunch,40.74626,-73.98473,restaurant,4
 1604,Herbs Thai Bistro,251 E 45th St,10017,thai,40.75193,-73.97099,restaurant,4
 1605,Hero Thai-Izakaya,34-16 Broadway,11106,thai,40.76038,-73.92257,restaurant,4
-1606,Hey Hey Canteen,1000 8th Ave,10019,healthy,40.66503775,-73.97988634,restaurant,4
 1607,Hi Noodle Etc,333 Graham Ave,11211,thai,40.714275,-73.944649,restaurant,4
 1608,Hibachi Grill & Supreme Buffet,200 E 161st St,10451,chinese,40.82514606,-73.92129183,restaurant,2.5
 1609,Hibino,10-70 Jackson Ave,11101,japanese,40.742626,-73.95198,restaurant,3.5
@@ -1738,7 +1735,6 @@
 1737,INDAY,708 3rd Ave,10017,indian,40.75233,-73.97353,restaurant,4
 1738,Inday,1133 Broadway,10010,healthy,40.7434986,-73.9892206,restaurant,4
 1739,Inday Go Go,570 Lexington Ave,10022,indian,40.75686,-73.97228,restaurant,4.5
-1740,indi thai,123 Allen St,10029,thai,40.71983,-73.99035,restaurant,3.5
 1741,India House Restaurant,586 Nostrand Ave,11216,indian,40.67871937,-73.94966997,restaurant,3.5
 1742,India Kitchen,493 9th Ave,10018,indian,40.7555499,-73.9949174,restaurant,4.5
 1743,Indian Accent,123 W 56th St,10019,indian,40.76433446,-73.97873129,restaurant,4.5
@@ -2947,7 +2943,6 @@
 2946,Pepper Lunch Broadway,243 W 54th St,10019,japanese,40.76449,-73.9833,restaurant,4
 2947,Peppino's Brick Oven Pizza & Restaurant,469 5th Ave,11215,pizza,40.668221,-73.986936,restaurant,4
 2948,Percy's Pizza,190 Bleecker St,10012,pizza,40.729076,-74.001534,restaurant,4
-2949,Perfect Taste,1884 Park Ave,10036,chinese,40.80739524,-73.9377716,restaurant,4
 2950,Perk Kafe,162 E 37th St,10016,dessert,40.74776474,-73.97704077,restaurant,4.5
 2951,Persepolis,1407 2nd Ave,10021,healthy,40.76984,-73.958015,restaurant,4.5
 2952,Pescatore Seafood,327 Grand Central Terminal,10017,seafood,40.7527262,-73.9772294,restaurant,3.5
@@ -3545,7 +3540,6 @@
 3544,Ssam Tong,41-08 149th Pl,11355,korean,40.76206795,-73.8147189,restaurant,5
 3545,St James Deli,34-02 34th Ave,11106,mexican,40.75843584,-73.92472595,restaurant,3.5
 3546,St Tropez - Soho,194 Spring St,10012,brunch,40.72498,-74.00328,restaurant,3.5
-3547,Stache of Goods NYC,null,10011,dessert,40.714395,-73.999034,restaurant,3.5
 3548,Stand Up,7215 18th Ave,11204,korean,40.61465998,-73.99449002,restaurant,4
 3549,Stanford East Sake Bar,43 W 32nd St,10001,japanese,40.74814,-73.98755,restaurant,3.5
 3550,Stang Thai,3019 Fort Hamilton Pkwy,11218,vietnamese,40.64841,-73.97898,restaurant,4.5
@@ -3712,7 +3706,6 @@
 3711,Tacos Los Tigres Del Bronx,962 Longwood Ave,10459,mexican,40.81737,-73.8983,restaurant,3.5
 3712,Tacos Matamoros,4508 5th Ave,11220,mexican,40.64781878,-74.00763835,restaurant,4.5
 3713,Tacos Times Square,43 West 55st,10019,mexican,40.76253,-73.97671,restaurant,3.5
-3714,Tacovision,244 E 53rd St,10004,mexican,40.75682003,-73.9678929,restaurant,3.5
 3715,Tacuba,35-01 36th St,11106,mexican,40.75585,-73.92447,restaurant,3.5
 3716,Tacuba Hell's Kitchen,802 9th Ave,10019,mexican,40.76545,-73.98729,restaurant,4.5
 3717,Tadka Indian Cuisine,13-15 43rd Ave,11101,indian,40.75096,-73.94578,restaurant,4
@@ -4075,7 +4068,6 @@
 4074,Toad Style,93 Ralph Ave,11221,vietnamese,40.68688,-73.92322,restaurant,4.5
 4075,Tokyo House,5648 Riverdale Ave,10471,japanese,40.9056206,-73.9040833,restaurant,4
 4076,Tokyo Sushi Japanese,1710 Victory Blvd,10314,korean,40.613259,-74.12064,restaurant,3.5
-4077,Toloache 50,251 West 50th St,10012,mexican,40.762325,-73.9855741,restaurant,4
 4078,Toloache 82nd,166 E 82nd St,10028,mexican,40.77648,-73.95669,restaurant,4.5
 4079,Toloache Thompson,205 Thompson St,10012,mexican,40.7286749,-73.9996277,restaurant,4
 4080,Tomi Jazz,239 E 53rd St,10022,japanese,40.75725,-73.96774,restaurant,3.5

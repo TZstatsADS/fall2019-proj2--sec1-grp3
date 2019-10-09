@@ -1,29 +1,14 @@
-### INSERT DEPENDENCIES
+
 
 library(shiny)
-library(choroplethr)
 library(dplyr)
 library(leaflet)
 library(maps)
 library(rgdal)
 library(tigris)
 library(geojsonio)
-library(hash)
 library(leaflet.extras)
 
-
-## LOAD DATA
-## Page1
-orig_cultural_data <-read.csv("CultureCenter.csv")
-delete_cult_name <- c('State', 'City', 'Main.Phone..', 'Council.District', 'Census.Tract', 'BIN', 'BBL', 'NTA')
-processed_cult_data <- orig_cultural_data[,!(names(orig_cultural_data) %in% delete_cult_name)]
-
-## Page2
-listings_data <- read.csv("listings_new.csv", header=TRUE, sep=",")
-load('nyc_nbhd.RData')
-bins <- c(80, 100, 120, 140, 160, 180,200)
-bound<- geojsonio::geojson_read("Borough Boundaries.geojson", what = "sp")
-pal <- colorBin("YlOrRd", domain = states$density, bins = bins)
 
 ########### PAGE 1 SCRIPTS ###############
 
@@ -31,17 +16,34 @@ rest_cult_data <-read.csv("../data/rest_and_cult_data.csv")
 rest_data <- read.csv("../data/rest_data.csv")
 cult_data <- read.csv("../data/cult_data.csv")
 
-popup_rest = paste0('<strong>Name: </strong><br>', rest_data$Name, 
-                    '<br><strong>Cuisine:</strong><br>', rest_data$Type,
-                    '<br><strong>Yelp Rating:</strong><br>', rest_data$Rating,
-                    '<br><strong>Address:</strong><br>', rest_data$Address)
-popup_cult = paste0('<strong>Name: </strong><br>', cult_data$Name, 
-                    '<br><strong>Type:</strong><br>', cult_data$Type,
-                    '<br><strong>Address:</strong><br>', cult_data$Address)
+man.nbhd=c("all neighborhoods", 
+           "Central Harlem", 
+           "Chelsea and Clinton",
+           "East Harlem", 
+           "Gramercy Park and Murray Hill",
+           "Greenwich Village and Soho", 
+           "Lower Manhattan",
+           "Lower East Side", 
+           "Upper East Side", 
+           "Upper West Side",
+           "Inwood and Washington Heights")
+zip.nbhd=as.list(1:length(man.nbhd))
+zip.nbhd[[1]]=as.character(c(10026, 10027, 10030, 10037, 10039))
+zip.nbhd[[2]]=as.character(c(10001, 10011, 10018, 10019, 10020, 10036))
+zip.nbhd[[3]]=as.character(c(10029, 10035))
+zip.nbhd[[4]]=as.character(c(10010, 10016, 10017, 10022))
+zip.nbhd[[5]]=as.character(c(10012, 10013, 10014))
+zip.nbhd[[6]]=as.character(c(10004, 10005, 10006, 10007, 10038, 10280))
+zip.nbhd[[7]]=as.character(c(10002, 10003, 10009))
+zip.nbhd[[8]]=as.character(c(10021, 10028, 10044, 10065, 10075, 10128))
+zip.nbhd[[9]]=as.character(c(10023, 10024, 10025))
+zip.nbhd[[10]]=as.character(c(10031, 10032, 10033, 10034, 10040))
+
+
 
 cuis_opts <- c("All Cuisine",
-             "American", "Mexican", "Chinese", "Korean", "Japanese",
-             "Italian", "Vietnamese", "Healthy", "Pizza", "Thai")
+               "American", "Mexican", "Chinese", "Korean", "Japanese",
+               "Italian", "Vietnamese", "Healthy", "Pizza", "Thai")
 
 rest_colors <- colorFactor("Set3",cuis_opts )
 
@@ -54,6 +56,13 @@ cult_colors <- colorFactor("Pastel1",cult_opts )
 
 
 ########### PAGE 2 SCRIPTS ###############
+
+listings_data <- read.csv("listings_new.csv", header=TRUE, sep=",")
+load('nyc_nbhd.RData')
+bins <- c(80, 100, 120, 140, 160, 180,200)
+bound<- geojsonio::geojson_read("Borough Boundaries.geojson", what = "sp")
+pal <- colorBin("YlOrRd", domain = states$density, bins = bins)
+
 
 delete_name <- c('host_id', "host_name", "last_review", "reviews_per_month", 
                  "calculated_host_listings_count", "availability_365" )
@@ -127,22 +136,22 @@ popup1 = paste0('<strong>Price($/night): </strong><br>', listings$price,
 ##########################################
 shinyServer(function(input, output) {
   ## Panel 1: leaflet
-  output$map1 <- renderLeaflet({
-    map_load <-  processed_cult_data # %>% filter(Discipline == 'Music')
-    
-    #if (input$Centers )
-    leaflet(map_load) %>% addTiles()%>% addProviderTiles("CartoDB.Positron")%>% addCircles(lng = ~Longitude, lat = ~Latitude)
-    
-  })
+
   
   ###########
   
   map_load2 <-  rbind(rest_data,cult_data)
   
-
+  
   output$page_map <- renderLeaflet({
     
-    if (input$Cuisine == 'American'){
+    
+    
+    #output$yelp_slider <- renderPrint({ input$yelp_slider })
+    rest_data <- rest_data %>% filter(Rating >= input$yelp_slider[1])
+    rest_data <- rest_data %>% filter(Rating <= input$yelp_slider[2])
+    
+    if (input$Cuisine == "American"){
       rest_data <- rest_data %>% filter(Type == 'american')
     }
     else if (input$Cuisine == 'Chinese'){
@@ -176,36 +185,50 @@ shinyServer(function(input, output) {
     if (input$Centers == 'Music'){
       cult_data <- cult_data %>% filter(Type == 'Music')
     }
-    else if (input$Centers == 'Museum'){
+    if (input$Centers == 'Museum'){
       cult_data <- cult_data %>% filter(Type == 'Museum')
     }
-    else if (input$Centers == 'Theater'){
+    if (input$Centers == 'Theater'){
       cult_data <- cult_data %>% filter(Type == 'Theater')
     }
-    else if (input$Centers == 'Visual Arts'){
+    if (input$Centers == 'Visual Arts'){
       cult_data <- cult_data %>% filter(Type == 'Visual Arts')
     }
     
     
+    #~rest_colors(input$Cuisine)
+    #~cult_colors(input$Centers)
+    
+    if (input$nbhd!=0){
+      rest_data<-rest_data%>%
+        filter(Postcode %in% zip.nbhd[[as.numeric(input$nbhd)]])
+      cult_data<-cult_data%>%
+        filter(Postcode %in% zip.nbhd[[as.numeric(input$nbhd)]])
+    }
     
     
-    output$yelp_slider <- renderPrint({ input$yelp_slider })
-    rest_data <- rest_data %>% filter(Rating >= input$yelp_slider[1])
-    rest_data <- rest_data %>% filter(Rating <= input$yelp_slider[2])
     
-    ~rest_colors(input$Cuisine)
-    ~cult_colors(input$Centers)
-    
-    map_load2 <-  rbind(rest_data,cult_data)
-    
-    
+    popup_rest = paste0('<strong>Name: </strong><br>', rest_data$Name, 
+                        '<br><strong>Cuisine:</strong><br>', rest_data$Type,
+                        '<br><strong>Yelp Rating:</strong><br>', rest_data$Rating,
+                        '<br><strong>Yelp Rating:</strong><br>', rest_data$Postcode,
+                        '<br><strong>Address:</strong><br>', rest_data$Address)
+    popup_cult = paste0('<strong>Name: </strong><br>', cult_data$Name, 
+                        '<br><strong>Type:</strong><br>', cult_data$Type,
+                        '<br><strong>Type:</strong><br>', cult_data$Postcode,
+                        '<br><strong>Address:</strong><br>', cult_data$Address)
     if (input$heatmap==FALSE){
       if (input$rest_checkbox == TRUE && input$cult_checkbox == FALSE) {
         leaflet(rest_data) %>%
           addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
           addCircleMarkers(data = rest_data,
                            color = ~rest_colors(input$Cuisine), popup = popup_rest,
-                           opacity = 0.5, radius = 0.5)
+                           opacity = 0.8, radius = 0.7) %>%
+          addLegend(position = "topright",
+                    colors = c(~rest_colors(input$Cuisine)),
+                    labels = c(input$Cuisine),
+                    opacity = 0.8,
+                    title = 'Legend')
         
       }
       
@@ -214,23 +237,32 @@ shinyServer(function(input, output) {
           addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
           addCircleMarkers(data = cult_data,
                            color = ~cult_colors(input$Centers), popup = popup_cult,
-                           opacity = 0.5, radius = 0.5)
+                           opacity = 0.8, radius = 0.7) %>%
+          addLegend(position = "topright",
+                    colors = c(~cult_colors(input$Centers)),
+                    labels = c(input$Centers),
+                    opacity = 0.8,
+                    title = 'Legend')
         
       }  
       
       else {
         
-        FILE1 <- rest_data
-        FILE2 <- cult_data
-        
-        leaflet(rbind(FILE1, FILE2)) %>%
+   
+        leaflet(rbind(rest_data, cult_data)) %>%
           addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
-          addCircleMarkers(data = FILE1,
+          addCircleMarkers(data = rest_data,
                            color = ~rest_colors(input$Cuisine), popup = popup_rest,
-                           opacity = 0.5, radius = 0.5) %>%
-          addCircleMarkers(data = FILE2,
+                           opacity = 0.8, radius = 0.7) %>%
+          addCircleMarkers(data = cult_data,
                            color = ~cult_colors(input$Centers), popup = popup_cult,
-                           opacity = 0.5, radius = 0.5)
+                           opacity = 0.8, radius = 0.7) %>%
+          addLegend(position = "topright",
+                    colors = c(~rest_colors(input$Cuisine),~cult_colors(input$Centers)),
+                    labels = c(input$Cuisine,input$Centers),
+                    opacity = 0.8,
+                    title = 'Legend')
+        
         
       }
     }
@@ -263,7 +295,7 @@ shinyServer(function(input, output) {
     
     
     #leaflet(map_load2) %>% addTiles()%>% addProviderTiles("CartoDB.Positron")%>% addCircles(lng = ~Longitude, lat = ~Latitude)
-
+    
   })
   
   
@@ -324,12 +356,13 @@ shinyServer(function(input, output) {
                   colors = c("#FEB24C","#e7152a","#2766c9"),
                   labels = c('Shared Room','Private Room','Entire Home'),
                   opacity = 0.6,
-                  title = 'Room Type')}else{leaflet(h) %>%
-                      setView(long(input$Neighbor), lat(input$Neighbor), zoom(input$Neighbor))%>%
-                      addProviderTiles("CartoDB.Positron") %>%
-                      addCircles(lng = ~longitude, lat = ~latitude, popup = popup1, radius = ~room_size, color = ~palc(room_size), stroke = T)
-                    
-                  }    
+                  title = 'Room Type')}
+    else{leaflet(h) %>%
+        setView(long(input$Neighbor), lat(input$Neighbor), zoom(input$Neighbor))%>%
+        addProviderTiles("CartoDB.Positron") %>%
+        addCircles(lng = ~longitude, lat = ~latitude, popup = popup1, radius = ~room_size, color = ~palc(room_size), stroke = T)
+      
+    }    
   })
 })
 

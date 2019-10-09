@@ -1,4 +1,4 @@
-
+library(shinythemes)
 library(shiny)
 library(leaflet)
 library(ggplot2)
@@ -6,7 +6,7 @@ library(ggplot2)
 
 
 
-navbarPage("Airbnb Recommendation",
+navbarPage(theme = shinytheme( "flatly"), "NYC Tourism",
            ######Page 1 ##################
            
            tabPanel("Dining + Activities",
@@ -16,8 +16,22 @@ navbarPage("Airbnb Recommendation",
                         
                         absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,style="padding: 0 20px 20px 20px;",
                                       style = "opacity: 0.75",
-                                      draggable = TRUE, top = 50, left = 0, right = 40, bottom = "auto",
+                                      draggable = TRUE, top = 60, left = 15, right = 40, bottom = "auto",
                                       width = 330, height = "auto", h3("Select:"),
+                                      selectInput("nbhd", label = h4("Choose a Neighborhood"), 
+                                                  choices = list("All Neighborhoods"=0,
+                                                                 "Central Harlem"=1, 
+                                                                 "Chelsea and Clinton"=2,
+                                                                 "East Harlem"=3, 
+                                                                 "Gramercy Park and Murray Hill"=4,
+                                                                 "Greenwich Village and Soho"=5, 
+                                                                 "Lower Manhattan"=6,
+                                                                 "Lower East Side"=7, 
+                                                                 "Upper East Side"=8, 
+                                                                 "Upper West Side"=9,
+                                                                 "Inwood and Washington Heights"=10), 
+                                                  selected = 0),
+                                      
                                       checkboxInput("rest_checkbox", label = "View Restauraunts", 
                                                     value = TRUE),
                                       
@@ -25,23 +39,24 @@ navbarPage("Airbnb Recommendation",
                                                   choices = list("All Cuisine",
                                                                  "American", "Mexican", "Chinese", "Korean", "Japanese",
                                                                  "Italian", "Vietnamese", "Healthy", "Pizza", "Thai"), selected = "All Cuisine"),
-                                      sliderInput("yelp_slider", label = h4("Yelp Rating"),
+                                      sliderInput("yelp_slider", label = h6("Yelp Rating"),
                                                   min = 1, max = 5, value = c(3, 4)),
                                       
-                                      checkboxInput("cult_checkbox", label = "View Cultural Centers?", 
+                                      checkboxInput("cult_checkbox", label = "View Cultural Centers", 
                                                     value = TRUE),
                                       
-                                      selectInput("Centers", label = h4("Centers"), 
+                                      selectInput("Centers", label = h4("Recreational Activities"), 
                                                   choices = list("All Cultural Centers",
+                                                                 "Museum",
                                                                  "Music", 
                                                                  "Theater",
-                                                                 "Visual Arts", "Museum"), selected = "All Cultural Centers"),
+                                                                 "Visual Arts"), selected = "All Cultural Centers"),
                                       
-                                      checkboxInput("heatmap", label = h5("Heatmap: "), value= FALSE)
+                                      checkboxInput("heatmap", "Heatmap", value= FALSE)
                         ))),
            
            ######Page 2 ##################
-           tabPanel("Housing",
+           tabPanel("Airbnb",
                     
                     div(class="outer",
                         tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0}"),
@@ -51,7 +66,7 @@ navbarPage("Airbnb Recommendation",
                                       style="padding: 0 20px 20px 20px;",
                                       style = "opacity: 0.75",
                                       fixed = TRUE,
-                                      draggable = TRUE, top = 50, left = 0, right = 40, bottom = "auto",
+                                      draggable = TRUE, top = 60, left = 15, right = 40, bottom = "auto",
                                       width = 330, height = "auto", h3("Select:"),
                                       selectInput("Neighbor", label = h4("Neighborhoods"), 
                                                   choices = list("None Selected",
@@ -104,3 +119,5 @@ navbarPage("Airbnb Recommendation",
            ))
            
 )
+
+

@@ -1,4 +1,4 @@
-﻿num,Name,Address,Postcode,Type,Latitude,Longitude,Category,Rating
+﻿num,Name,Address,Postcode,Type,latitude,longitude,Category,Rating
 1,"Colonial Farmhouse Restoration Society of Bellerose, Inc.",73-50 Little Neck Parkway,11004,Museum,40.748163,-73.719431,cultural_center,-1
 2,"Quintet of the Americas, Inc.",15 Circle Road,11363,Music,40.771316,-73.747065,cultural_center,-1
 3,"Community Center of the Rockaway Peninsula, Inc.",257 Beach 17th Street,11691,Music,40.596751,-73.751147,cultural_center,-1
@@ -185,7 +185,6 @@
 184,National Academy of Design,1083 Fifth Avenue,10128,Museum,40.78377,-73.958781,cultural_center,-1
 185,"Booklyn, Inc.",37 Greenpoint Avenue,11222,Visual Arts,40.729756,-73.958998,cultural_center,-1
 186,New York Conservatory of Music,321 East 69th Street,10021,Music,40.766583,-73.95908,cultural_center,-1
-187,"Music at the Anthology, Inc.",260 West Broadway,10013,Music,40.708935,-73.959386,cultural_center,-1
 188,Solomon R. Guggenheim Foundation,1071 Fifth Avenue,10128,Museum,40.782925,-73.959391,cultural_center,-1
 189,"Take Wing and Soar Productions, Inc.","45 Tiemann Place, Ste. 3G",10027,Theater,40.815436,-73.959465,cultural_center,-1
 190,Southside United Housing Development Fund Corp,213 South 4th Street,11211,Museum,40.710664,-73.959594,cultural_center,-1
@@ -199,7 +198,6 @@
 198,Willie Mae Rock Camp for Girls,495 Flatbush Avenue,11225,Music,40.662184,-73.961754,cultural_center,-1
 199,Manhattan School of Music,120 Claremont Avenue,10027,Music,40.812588,-73.961848,cultural_center,-1
 200,South Wing Theatre Company,"221 East 18th Street, Ste. 3",11226,Theater,40.645814,-73.962376,cultural_center,-1
-201,Classical Domain,218 East 18th Street,10003,Music,40.645866,-73.962408,cultural_center,-1
 202,Metropolitan Museum of Art,1000 Fifth Avenue,10028,Visual Arts,40.778633,-73.962546,cultural_center,-1
 203,"Omni Ensemble, Ltd.",23 Wellington Court,11230,Music,40.630748,-73.962672,cultural_center,-1
 204,Brooklyn Institute of Arts and Sciences,200 Eastern Parkway,11238,Visual Arts,40.671835,-73.963042,cultural_center,-1
@@ -242,7 +240,6 @@
 241,"Japan Society, Inc.",333 East 47th Street,10017,Museum,40.752645,-73.969054,cultural_center,-1
 242,"New Amsterdam Presents, Inc.",417 Myrtle Ave. #101,11205,Music,40.693133,-73.969121,cultural_center,-1
 243,"Edge Theater Company, Inc.","880 Third Avenue, 16th floor",10022,Theater,40.75791,-73.969254,cultural_center,-1
-244,Girl Be Heard Institute,"80 East 11th St, Suite 301A",10003,Theater,40.646843,-73.969294,cultural_center,-1
 245,"Making Books Sing, Inc.",340 East 46th Street,10017,Theater,40.751943,-73.969339,cultural_center,-1
 246,"Creative Alternatives of New York, Inc.",225 West 99th Street,10025,Theater,40.796267,-73.969586,cultural_center,-1
 247,"New York Gilbert & Sullivan Players, Inc.",225 West 99th Street,10025,Theater,40.796267,-73.969586,cultural_center,-1
@@ -265,7 +262,6 @@
 264,"Spellbound Theatre, Inc",941 President Street,11215,Theater,40.672277,-73.971885,cultural_center,-1
 265,"Educational Theater of New York, Inc.",228 East 45th Street,10017,Theater,40.752355,-73.972266,cultural_center,-1
 266,"Breakthru Education, Inc.",235 Lincoln Place,11217,Theater,40.675041,-73.9728,cultural_center,-1
-267,Brooklyn Art Song Society,"60 East 8th Street, Apt. 30 E",10003,Music,40.648658,-73.972803,cultural_center,-1
 268,"Rising Circle Theater Collective, Inc.",212 South Oxford Street,11217,Theater,40.683198,-73.972861,cultural_center,-1
 269,Freestyle Repertory Theatre,"120 West 86th Street, Apt. 1A",10024,Theater,40.786769,-73.972866,cultural_center,-1
 270,Evangelical Lutheran Church of the Advent,2504 Broadway,10025,Music,40.792909,-73.97304,cultural_center,-1
@@ -755,7 +751,6 @@
 754,Museum of Jewish Heritage ï¿½ A Living Memorial to the Holocaust,36 Battery Place,10280,Museum,40.705806,-74.018019,cultural_center,-1
 755,"Bella Voce, Inc.",659 85th Street,11228,Music,40.619946,-74.021991,cultural_center,-1
 756,20/20 Vision for Schools,8225 5th Avenue #323,11209,Visual Arts,40.624082,-74.024838,cultural_center,-1
-757,"Pamplemousse Productions, Inc.","304 West 75th Street, #3H",10023,Music,40.631344,-74.027312,cultural_center,-1
 758,"Boricua Festival Committee, Inc.","313 97th Street, #1B",11209,Music,40.615625,-74.033804,cultural_center,-1
 759,"Narrows Community Theater, Inc.","97-28 Third Avenue, #527",11209,Theater,40.615504,-74.034322,cultural_center,-1
 760,Ridge Chorale Inc.,80 80th Street,11209,Theater,40.629519,-74.036426,cultural_center,-1
