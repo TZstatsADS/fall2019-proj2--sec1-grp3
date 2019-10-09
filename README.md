@@ -21,18 +21,18 @@ Team : Section 1 Group 3
 + **Project summary**: 
 ![screenshot](lib/Rec_Sys.png)
 
-Airbnb is a mature home-rental platform with 33.9 million users. This app is an Airbnb listing search engine designed for first-time visitors to New York. It can help users make a wiser choice on Airbnb based on their preference for restaurants, facilities, and the trade-off between housing prices and ratings. In this project, we employed comprehensive datasets including Airbnb listing details, Airbnb reviews, Yelp restaurant ratings, and NYC facility information.
+Airbnb is a mature home-rental platform with 33.9 million users. This app is an Airbnb listing search engine designed for first-time visitors to New York. It can help users make a wiser choice on Airbnb based on their preference for restaurants, facilities, and the trade-off between housing prices and ratings. In this project, we employed comprehensive datasets including Airbnb listing details, Airbnb reviews, Yelp restaurant ratings, and NYC facility information. Additionally, in order to gather Yelp restaurant data, utlized Yelp Fusion API in order to gather 5000+ of Manhattan's most trendy restaurants and create our own dataset.
 
-On the 'Overview' map, 
+On the 'Dining/Activities' map, users can filter through which area of Manhattan they are most interested in visiting. By setting custom preferences such as activities and cuisine choices. They can also filter through restaurant ratings and find the names and addresses of food options that best match their query. Additionally, they can visually determine areas on NYC that have the highest concentration of certain cuisines and activities via a heatmap. 
 
-On the 'Customization' page, the first impression a tourist will get is the distribution of average Airbnb housing prices in different neighborhoods. The deeper the color, the higher the price. After setting the favorite neighborhood, price range, room type and the number of nights to stay, tourists can locate the housings which fit them the best. Besides, we allow users to set the minimum rating to further filter. They can also play with the trade-off between price and rating to optimize their choice. Once users find their favorite listings, they can click on the small circle on the map to view the housing details, including price, number of reviews and Airbnb URL. By clicking the Airbnb URL, they will go directly to the Airbnb website of this listing to contact the house owner. 
+On the 'Housing' page, the first impression a tourist will get is the distribution of average Airbnb housing prices in different neighborhoods. The deeper the color, the higher the price. After setting the favorite neighborhood, price range, room type and the number of nights to stay, tourists can locate the housings which fit them the best. Besides, we allow users to set the minimum rating to further filter. They can also play with the trade-off between price and rating to optimize their choice. Once users find their favorite listings, they can click on the small circle on the map to view the housing details, including price, number of reviews and Airbnb URL. By clicking the Airbnb URL, they will go directly to the Airbnb website of this listing to contact the house owner. 
 
 
 + **Contribution statement**: ([default](doc/a_note_on_contributions.md))<br>
 
 
 
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
+Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is organized as follows.
 
 ```
 proj/
