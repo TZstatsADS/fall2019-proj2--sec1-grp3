@@ -33,11 +33,11 @@ On the 'Airbnb' page, the first impression a tourist will get is the distributio
 
 
 + **Contribution statement**: ([default](doc/a_note_on_contributions.md))<br>
-Data acquisition and manipulation: Everyone
-UI Design: Everyone
-Dining+Activities page: Daniel Weiss, Jerry Zhang
-Airbnb page: Xiwen Chen, Nichole Yao, Justine Zhang
-Contact page: Justine Zhang
+Data acquisition and manipulation: Everyone<br>
+UI Design: Everyone<br>
+Dining+Activities page: Daniel Weiss, Jerry Zhang<br>
+Airbnb page: Xiwen Chen, Nichole Yao, Justine Zhang<br>
+Contact page: Justine Zhang<br>
 Presentation: Justine Zhang
 
 
