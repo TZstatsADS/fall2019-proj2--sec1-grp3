@@ -211,7 +211,7 @@ shinyServer(function(input, output) {
     popup_rest = paste0('<strong>Name: </strong><br>', rest_data$Name, 
                         '<br><strong>Cuisine:</strong><br>', rest_data$Type,
                         '<br><strong>Yelp Rating:</strong><br>', rest_data$Rating,
-                        '<br><strong>Yelp Rating:</strong><br>', rest_data$Postcode,
+                        '<br><strong>Zip Code:</strong><br>', rest_data$Postcode,
                         '<br><strong>Address:</strong><br>', rest_data$Address)
     popup_cult = paste0('<strong>Name: </strong><br>', cult_data$Name, 
                         '<br><strong>Type:</strong><br>', cult_data$Type,
