@@ -2,35 +2,35 @@
 
 ### [Project Description](doc/project2_desc.md)
 
-![screenshot](doc/screenshot2.png)
+![screenshot](lib/airbnb.png)
 
-In this second project of GR5243 Applied Data Science, we develop a version 2.0 of an *Exploratory Data Analysis and Visualization* shiny app on a topic of your choice using [NYC Open Data](https://opendata.cityofnewyork.us/) or U.S. government open data released on the [data.gov](https://data.gov/) website. See [Project 2 Description](doc/project2_desc.md) for more details.  
+## Airbnb Helper
+https://jujuzyt.shinyapps.io/app_new/
 
-The **learning goals** for this project is:
-
-- business intelligence for data science
-- study legacy codes and further development
-- data cleaning
-- data visualization
-- systems development/design life cycle
-- shiny app/shiny server
-
-*The above general statement about project 2 can be removed once you are finished with your project. It is optional.
-
-## An Analysis of Airbnb's in Manhattan
 Term: Fall 2019
 
-+ Team : Section 1 Group 3
-+ **Projec title**: 
+Team : Section 1 Group 3
+
++ **Team Members**: 
 	+ Xiwen Chen | xc2463@columbia.edu
 	+ Daniel Weiss | dmw2180@columbia.edu
-        + Nichole Yao | yy2860@columbia.edu
-        + Justine Zhang | yz3420@columbia.edu
-        + Jerry Zhang | jz2966@columbia.edu
+  + Nichole Yao | yy2860@columbia.edu
+  + Justine Zhang | yz3420@columbia.edu
+  + Jerry Zhang | jz2966@columbia.edu
 
-+ **Project summary**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ **Project summary**: 
+![screenshot](lib/Rec_Sys.png)
 
-+ **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+Airbnb is a mature home-rental platform with 33.9 million users. This app is an Airbnb listing search engine designed for first-time visitors to New York. It can help users make a wiser choice in Airbnb based on their preference for restaurants, facilities, and the trade-off between housing prices and ratings. In this project, we employed comprehensive datasets including Airbnb listing details, Airbnb reviews, Yelp restaurant ratings, and NYC facility information.
+
+On the 'Overview' map, 
+
+On the 'Customization' page, the first impression a tourist will get is the distribution of average Airbnb housing prices in different neighborhoods. The deeper the color, the higher the price. After setting the favorite neighborhood, price range, room type and the number of nights to stay, tourists can locate the housings which fit them the best. Besides, we allow users to set the minimum rating to further filter. They can also play with the trade-off between price and rating to optimize their choice. Once users find their favorite listings, they can click on the small circle on the map to view the housing details, including price, number of reviews and Airbnb URL. By clicking the Airbnb URL, they will go directly to the Airbnb website of this listing to contact the house owner. 
+
+
++ **Contribution statement**: ([default](doc/a_note_on_contributions.md))<br>
+
+
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
@@ -44,4 +44,3 @@ proj/
 ```
 
 Please see each subfolder for a README file.
-
