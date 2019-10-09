@@ -44,7 +44,7 @@ navbarPage(theme = shinytheme( "flatly"),
                                                   min = 1, max = 5, value = c(3, 4)),
                                       
                                       checkboxInput("cult_checkbox", label = "View Cultural Centers", 
-                                                    value = TRUE),
+                                                    value = FALSE),
                                       
                                       selectInput("Centers", label = h4("Recreational Activities"), 
                                                   choices = list("All Cultural Centers",
