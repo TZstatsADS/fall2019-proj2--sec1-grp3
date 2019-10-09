@@ -19,6 +19,7 @@ Term: Fall 2019
 
 + **Project summary**: 
 ![screenshot](lib/Rec_Sys.png)
+
 Airbnb is a mature home-rental platform with 33.9 million users. This app is an Airbnb listing search engine designed for first-time visitors to New York. It can help users make a wiser choice in Airbnb based on their preference for restaurants, facilities, and the trade-off between housing prices and ratings. In this project, we employed comprehensive datasets including Airbnb listing details, Airbnb reviews, Yelp restaurant ratings, and NYC facility information.
 
 On the 'Overview' map, 
