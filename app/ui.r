@@ -6,17 +6,17 @@ library(ggplot2)
 
 
 
-navbarPage(theme = shinytheme( "flatly"), "NYC Tourism",
+navbarPage(theme = shinytheme( "flatly"), "Airbnb Helper",
            ######Page 1 ##################
            
            tabPanel("Dining + Activities",
                     div(class="outer",
-                        tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0; opacity: 0.92}"),
+                        tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0}"),
                         leafletOutput("page_map",height = 800, width = 'auto'),
                         
                         absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,style="padding: 0 20px 20px 20px;",
                                       style = "opacity: 0.75",
-                                      draggable = TRUE, top = 60, left = 15, right = 40, bottom = "auto",
+                                      draggable = TRUE, top = 60, left = 80, right = 40, bottom = "auto",
                                       width = 330, height = "auto", h3("Select:"),
                                       selectInput("nbhd", label = h4("Choose a Neighborhood"), 
                                                   choices = list("All Neighborhoods"=0,
@@ -66,7 +66,7 @@ navbarPage(theme = shinytheme( "flatly"), "NYC Tourism",
                                       style="padding: 0 20px 20px 20px;",
                                       style = "opacity: 0.75",
                                       fixed = TRUE,
-                                      draggable = TRUE, top = 60, left = 15, right = 40, bottom = "auto",
+                                      draggable = TRUE, top = 60, left = 80, right = 40, bottom = "auto",
                                       width = 330, height = "auto", h3("Select:"),
                                       selectInput("Neighbor", label = h4("Neighborhoods"), 
                                                   choices = list("None Selected",

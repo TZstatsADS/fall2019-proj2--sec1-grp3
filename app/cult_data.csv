@@ -1,0 +1,782 @@
+﻿num,Name,Address,Postcode,Type,latitude,longitude,Category,Rating
+1,"Colonial Farmhouse Restoration Society of Bellerose, Inc.",73-50 Little Neck Parkway,11004,Museum,40.748163,-73.719431,cultural_center,-1
+2,"Quintet of the Americas, Inc.",15 Circle Road,11363,Music,40.771316,-73.747065,cultural_center,-1
+3,"Community Center of the Rockaway Peninsula, Inc.",257 Beach 17th Street,11691,Music,40.596751,-73.751147,cultural_center,-1
+4,Jewish Community Council of the RockawayPeninsula,1525 Central Avenue,11691,Music,40.605645,-73.751391,cultural_center,-1
+5,"Sol Zim Jewish Enrichment Music Foundation, Inc.",85-39 213th Street,11427,Music,40.729329,-73.755894,cultural_center,-1
+6,"Citizens Against Recidivism, Inc.",137-58 Thurston St,11413,Visual Arts,40.673254,-73.760079,cultural_center,-1
+7,"Caribbean American Repertory Theatre, Inc.",114-13 Ovid Place,11412,Theater,40.697103,-73.766546,cultural_center,-1
+8,"Black Spectrum Theatre Company, Inc.","119-07 Merrick Boulevard, 2nd Floor",11434,Theater,40.685612,-73.772853,cultural_center,-1
+9,"Oratorio Society of Queens, Inc.",33-19 210th Street,11361,Music,40.770661,-73.77808,cultural_center,-1
+10,"After School Rocks, Inc.",187-08 Union Turnpike,11366,Music,40.728972,-73.781866,cultural_center,-1
+11,City Island Theater Group,"160 Pilot Street, #127",10464,Theater,40.841299,-73.783771,cultural_center,-1
+12,"Focal Point Press, Ltd.",321 City Island Avenue,10464,Visual Arts,40.847587,-73.786631,cultural_center,-1
+13,"King Manor Association of Long Island, Inc.","90-04 161 Street, Ste. 704",11432,Museum,40.705199,-73.799278,cultural_center,-1
+14,Bartow-Pell Landmark Fund,895 Shore Road,10464,Museum,40.875733,-73.80166,cultural_center,-1
+15,Forest Hills Symphony Orchestra,160-08 25th Drive,11358,Music,40.774149,-73.803558,cultural_center,-1
+16,"Korean Traditional Marching Band, Inc.",45-19 162 Street,11358,Music,40.755665,-73.804616,cultural_center,-1
+17,Long Island String Quartet,1434 155th Street,11357,Music,40.788512,-73.806795,cultural_center,-1
+18,Bukharian Jewish Theater Vozrozhdeniye,"139-60 85th Drive, Suite 4E",11435,Theater,40.708914,-73.814744,cultural_center,-1
+19,Anthropology Museum of the People of New York,64-19 Kissena Boulevard,11367,Museum,40.737701,-73.81479,cultural_center,-1
+20,Godwin Ternbach Museum,"Queens College, 405 Klapper Hall",11367,Museum,40.736392,-73.818882,cultural_center,-1
+21,Queens Symphony Orchestra,c/o Queens College,11367,Music,40.736392,-73.818882,cultural_center,-1
+22,"Ujamaa Black Theater, Inc.",120 Erskine Place,10475,Theater,40.861339,-73.82147,cultural_center,-1
+23,Queens Historical Society,143-35 37th Avenue,11354,Museum,40.763513,-73.823649,cultural_center,-1
+24,"Lewis Howard Latimer Fund, Inc.",34-41 137th Street,11354,Museum,40.765923,-73.829621,cultural_center,-1
+25,Sacred Music Chorale of Richmond Hill,86-20 114th Street,11418,Music,40.699105,-73.835259,cultural_center,-1
+26,"Queens Theatre in the Park, Inc.",14 United Nations Avenue South,11368,Theater,40.744535,-73.844339,cultural_center,-1
+27,Westchester Square Art Center,2616 East Tremont Avenue,10461,Visual Arts,40.843115,-73.846559,cultural_center,-1
+28,New York Kids Theatrical Alliance,3467 Eastchester Road #6D,10469,Theater,40.878072,-73.846944,cultural_center,-1
+29,"Artist's Theatre Repertory Ensemble, Inc.",6776 Booth St,11375,Theater,40.724783,-73.851965,cultural_center,-1
+30,"Blue Pipa, Inc.",68-39 Harrow Street,11375,Music,40.717143,-73.853122,cultural_center,-1
+31,"Alliance of Queens Artists, Inc.",99-10 Metropolitan Avenue,11375,Visual Arts,40.71086,-73.853439,cultural_center,-1
+32,"Bukharian Jewish Theater Studio, Inc.",99-37 64th Road,11374,Theater,40.730758,-73.854394,cultural_center,-1
+33,"Elmcor Youth & Adult Activities, Inc.",33-16 108 Street,11368,Music,40.757429,-73.860938,cultural_center,-1
+34,Louis Armstrong House,34-56 107th Street,11368,Museum,40.754932,-73.861398,cultural_center,-1
+35,"Jewish Community Council of Pelham Parkway, Inc.",2157 Holland Avenue,10462,Music,40.855218,-73.86574,cultural_center,-1
+36,"Bayside Glee Club, Inc.",51-17 Reeder Street,11373,Music,40.738106,-73.878263,cultural_center,-1
+37,Percussia,37-22 85th Street #1,11372,Music,40.749706,-73.881468,cultural_center,-1
+38,Bardekova Ensemble,2965 Marion Avenue 3G,10458,Music,40.869159,-73.883993,cultural_center,-1
+39,St. Paul Community Baptist Church,859 Hendrix Street,11207,Theater,40.660158,-73.88427,cultural_center,-1
+40,Bronx Opera Company,5 Minerva Place (2J),10468,Music,40.871469,-73.891036,cultural_center,-1
+41,Orchestra of the Bronx,"5 Minerva Place, Apt. 2J",10468,Music,40.871469,-73.891036,cultural_center,-1
+42,Lehman College Art Gallery,250 Bedford Park Boulevard West,10468,Visual Arts,40.875028,-73.89286,cultural_center,-1
+43,"Greater Ridgewood Youth Council, Inc.",59-03 Summerfield Street,11385,Visual Arts,40.699463,-73.897855,cultural_center,-1
+44,Northern Woodside Coalition,33-47 60th Street,11377,Music,40.752451,-73.902239,cultural_center,-1
+45,Renaissance Youth Center,3485 Third Ave,10456,Music,40.830224,-73.906233,cultural_center,-1
+46,"Musica Reginae Productions, Ltd.",59-56 57th Drive,11378,Music,40.72184,-73.90631,cultural_center,-1
+47,"Showpaper, Inc",915 Wyckoff Ave.,11385,Music,40.696939,-73.906442,cultural_center,-1
+48,Red Monkey Theater Group,College of Mount Saint Vincent,10471,Theater,40.912733,-73.906999,cultural_center,-1
+49,YM-YWHA of the Bronx,5625 Arlington Avenue,10471,Theater,40.905009,-73.907133,cultural_center,-1
+50,Hebrew Home for the Aged at Riverdale,5901 Palisade Avenue,10471,Visual Arts,40.908233,-73.908974,cultural_center,-1
+51,"Bronx Community College Association, Inc.",2155 University Avenue,10453,Music,40.857899,-73.909307,cultural_center,-1
+52,Hip to Hip Theatre Company,52-40 39th Drive,11377,Theater,40.747142,-73.910905,cultural_center,-1
+53,"Wet Ink Music Productions, Inc.",23-52 37th Street,11105,Music,40.77081,-73.911227,cultural_center,-1
+54,"Goliard Concerts, Inc.",30-87 46th Street,11103,Music,40.759453,-73.911956,cultural_center,-1
+55,"thingNY, Inc.",2138 Crescent Street,11105,Music,40.77979,-73.913222,cultural_center,-1
+56,"Riverdale Community Center, Inc.",660 West 237th Street,10463,Theater,40.888338,-73.913486,cultural_center,-1
+57,Highly Over Violent Records,"825 Melrose Ave, Bronx, NY Apt 7E",10451,Music,40.82319,-73.914387,cultural_center,-1
+58,Kleinman Holocaust Education Center Inc,5923 Strickland Avenue,11234,Museum,40.607938,-73.915358,cultural_center,-1
+59,"AKTINA Productions, Inc.",23-50 27th Street,11105,Music,40.775041,-73.91646,cultural_center,-1
+60,"East Winds, Inc.","55 Park Terrace East, Apt. B63",10034,Music,40.870401,-73.916644,cultural_center,-1
+61,"People's Theatre Project, Inc.","5030 Broadway, Suite 660",10034,Theater,40.869034,-73.917275,cultural_center,-1
+62,"Flying Carpet Theater, Inc.",43-38 47th Street,11104,Theater,40.74413,-73.91756,cultural_center,-1
+63,"Astoria Music Society, Inc.",22-70 23rd Street,11105,Music,40.778324,-73.917575,cultural_center,-1
+64,Underworld Productions Opera Ensemble,"10 Park Terrace East, Ste. 4-C",10034,Music,40.8698,-73.917635,cultural_center,-1
+65,Lit Fund Incorporated,2348 Crescent Street,11105,Theater,40.776022,-73.91782,cultural_center,-1
+66,Concerts in the Heights,"251 Seaman Avenue, #1F",10034,Music,40.871766,-73.918157,cultural_center,-1
+67,String Orchestra of New York City,"251 Seaman Avenue, 1F",10034,Music,40.871766,-73.918157,cultural_center,-1
+68,Moose Hall Theatre Company,"25 Indian Road, Studio 4G",10034,Theater,40.872631,-73.918951,cultural_center,-1
+69,PRISM Quartet Incorporated,"25 Indian Road, #2H",10034,Music,40.872631,-73.918951,cultural_center,-1
+70,Womens Housing and Economic Development Corporation,50 East 168th Street,10452,Music,40.836725,-73.919292,cultural_center,-1
+71,"Wreckio Ensemble Theatre, Inc.",23-54 23rd Street,11105,Theater,40.776835,-73.919393,cultural_center,-1
+72,"Greek Cultural Center, Inc.",27-18 Hoyt Avenue South,11102,Theater,40.771931,-73.919901,cultural_center,-1
+73,"Theatron, Inc.",32-15 38th Street,11103,Theater,40.758978,-73.920086,cultural_center,-1
+74,Greater Ridgewood Historical Society,1820 Flushing Avenue,11385,Museum,40.710926,-73.920356,cultural_center,-1
+75,Bronx Museum of the Arts,1040 Grand Concourse,10456,Visual Arts,40.831063,-73.920361,cultural_center,-1
+76,"Yarnwire, Inc.",1717 Troutman St,11385,Music,40.708997,-73.920406,cultural_center,-1
+77,"Wyckoff House and Association, Inc.",5816 Clarendon Road,11203,Museum,40.64497,-73.920914,cultural_center,-1
+78,Dyckman Farmhouse Museum Alliance,4881 Broadway,10034,Museum,40.867125,-73.92283,cultural_center,-1
+79,"UP Theater Company, Inc.",60 Cooper Street,10034,Theater,40.868097,-73.922862,cultural_center,-1
+80,"BronxArtSpace, Inc.","305 East 140th St. , 1A",10454,Visual Arts,40.811694,-73.924961,cultural_center,-1
+81,Highbridge Voices Corporation,1360 Merriam Avenue,10452,Music,40.84195,-73.925346,cultural_center,-1
+82,"Young Urban Christians & Artists, Inc.",1272 Ogden Avenue,10452,Visual Arts,40.839419,-73.925667,cultural_center,-1
+83,"Chinese Theatre Works, Inc.","37-18 Northern Boulevard, # 105",11101,Theater,40.752096,-73.925887,cultural_center,-1
+84,Fresh Squeezed Opera Company,98 Thayer Street #3K,10040,Music,40.864554,-73.927783,cultural_center,-1
+85,"Multicultural Music Group, Inc.",601 Walton Avenue,10451,Music,40.820221,-73.927849,cultural_center,-1
+86,"Pregones Touring Puerto Rican Theatre Collection, Inc.",571-575 Walton Avenue,10451,Theater,40.819393,-73.928132,cultural_center,-1
+87,YM & YWHA of Washington Heights and Inwood,54 Nagle Avenue,10040,Music,40.859993,-73.929129,cultural_center,-1
+88,Cocolart,"555 West 186th Street, #4C",10033,Visual Arts,40.852009,-73.930587,cultural_center,-1
+89,"Community New Horizons of New York, Inc.","341 Wadsworth Avenue, Suite B",10040,Visual Arts,40.855572,-73.930757,cultural_center,-1
+90,"Ansonia Music Outreach Organization, Inc.",330 Wadsworth Avenue 2G,10040,Music,40.855188,-73.931061,cultural_center,-1
+91,Young Jean Lee's Theater Company,"1041 Broadway, Apt. 3",11221,Theater,40.695242,-73.932142,cultural_center,-1
+92,Northern Manhattan Coalition For Economic Development,"600 West 185th Street, 2nd Floor",10033,Music,40.851769,-73.932185,cultural_center,-1
+93,"New York Music Foundation, Inc.",247 Wadsworth Avenue,10033,Music,40.852552,-73.932965,cultural_center,-1
+94,Foundation,413 East 120 St,10035,Visual Arts,40.798371,-73.932987,cultural_center,-1
+95,American Folk Art Museum,47-29 32nd Place,11101,Museum,40.74212,-73.93313,cultural_center,-1
+96,"Momenta Art, Inc.",56 Bogart Street,11206,Visual Arts,40.705533,-73.933351,cultural_center,-1
+97,"NURTUREart Non-Profit, Inc.",56 Bogart Street,11206,Visual Arts,40.705533,-73.933351,cultural_center,-1
+98,"Orchestrating Dreams, Inc.",178 Bennett Ave,10040,Music,40.855958,-73.934144,cultural_center,-1
+99,International Studio and Curatorial Program,"1040 Metropolitan Avenue, Third Floor",11211,Visual Arts,40.714429,-73.934803,cultural_center,-1
+100,National Museum of Catholic Art and History,443 East 115th Street,10029,Museum,40.794897,-73.934887,cultural_center,-1
+101,"Ekmeles, Inc.","69 Bennett Ave, APT 210",10033,Music,40.85266,-73.935542,cultural_center,-1
+102,Loadbang Inc.,69 Bennett Ave.,10033,Music,40.85266,-73.935542,cultural_center,-1
+103,"Ridgewood Bushwick Senior Citizens Council, Inc.",555 Bushwick Avenue,11206,Theater,40.699372,-73.935647,cultural_center,-1
+104,"Peace of Heart Choir, Inc.","2201 Amsterdam Avenue, Apt. 5D",10032,Music,40.840567,-73.936392,cultural_center,-1
+105,"Russian Musical Arts Society of America, Inc.","731 West 183rd Street,  Apt. 3I",10033,Music,40.851994,-73.937224,cultural_center,-1
+106,Isamu Noguchi Foundation and Garden Museum,32-37 Vernon Boulevard,11106,Museum,40.767243,-73.937405,cultural_center,-1
+107,"dell'Arte Opera Ensemble, Inc.","255 Cabrini Boulevard, Apt. 5H",10040,Music,40.855886,-73.937701,cultural_center,-1
+108,United Haitian Association of USA,4114 Avenue D,11203,Music,40.641609,-73.937767,cultural_center,-1
+109,"Wilbur Ware Institute, Inc.",620 Malcolm X Blvd,10027,Music,40.817647,-73.938264,cultural_center,-1
+110,Athena Theatre,1224 St. Nicholas Avenue,10032,Theater,40.843094,-73.938269,cultural_center,-1
+111,"Morris-Jumel Mansion, Inc.",65 Jumel Terrace,10032,Museum,40.835076,-73.938562,cultural_center,-1
+112,"Project Y Theatre, Inc.",447 Ft. Washington Avenue,10033,Theater,40.850192,-73.938584,cultural_center,-1
+113,Opus 118 Harlem School of Music,"103 East 125th Street, 7th floor",10035,Music,40.804885,-73.938612,cultural_center,-1
+114,"Double Entendre Music Ensemble, Inc.",809 West 181st Street #165,10033,Music,40.85104,-73.938717,cultural_center,-1
+115,JACK Music Inc,809 W 181st St #224,10033,Music,40.85104,-73.938717,cultural_center,-1
+116,"Royal Family Productions, Inc.",66 Pinehurst Ave.,10033,Theater,40.85048,-73.939531,cultural_center,-1
+117,"Anthropologists, Inc.",100 Cabrini Blvd. #24,10033,Theater,40.851647,-73.94009,cultural_center,-1
+118,Arts Horizons LeRoy Neiman Art Center,2785 Frederick Douglass Blvd.,10039,Visual Arts,40.824667,-73.940595,cultural_center,-1
+119,New Sounds Music Incorporated,870 W. 181st Street 9B,10033,Music,40.851368,-73.941157,cultural_center,-1
+120,"Sculpture Center, Inc.",44-19 Purves Street,11101,Visual Arts,40.747013,-73.941173,cultural_center,-1
+121,Sugar Hill Children's Museum of Art & Storytelling,898 St. Nicholas Avenue,10032,Museum,40.8307,-73.941435,cultural_center,-1
+122,"Songs of Solomon: An Inspirational Ensemble, Inc.","151 West 136th Street, 2nd floor",10030,Music,40.815382,-73.941788,cultural_center,-1
+123,"National Black Theatre Workshop, Inc.",2031-33 Fifth Avenue,10035,Theater,40.806783,-73.941984,cultural_center,-1
+124,Crown Heights Jewish Community Council,375 Kingston Avenue,11213,Visual Arts,40.666153,-73.942485,cultural_center,-1
+125,"New Amsterdam Musical Association, Inc.",107 West 130th Street,10027,Music,40.811195,-73.943743,cultural_center,-1
+126,"ArtCrawl Harlem, Inc.",363 Malcolm X Blvd,10027,Visual Arts,40.809844,-73.943986,cultural_center,-1
+127,"Gorilla Repertory Theatre Company, Inc.","363 Tompkins Avenue, Apt. 3",11216,Theater,40.685216,-73.944275,cultural_center,-1
+128,Brooklyn Children's Museum,145 Brooklyn Avenue,11213,Museum,40.674773,-73.944464,cultural_center,-1
+129,"Sesame Flyers International, Inc.",3510 Church Avenue,11203,Music,40.651066,-73.944555,cultural_center,-1
+130,Harlem Artists' Development League Especially For You,229 West 135 Street,10030,Theater,40.815754,-73.944743,cultural_center,-1
+131,"RPGA Studio, Inc",43-01 22nd street suite 252,11101,Visual Arts,40.750081,-73.944744,cultural_center,-1
+132,"Oracle Theatre, Inc.","146 Conselyea Street, Apt. 2R",11211,Theater,40.715146,-73.945278,cultural_center,-1
+133,"Bridge, Inc.","290 Lenox Avenue, 3rd Floor",10027,Visual Arts,40.807457,-73.945704,cultural_center,-1
+134,"Noel Pointer Foundation, Inc.","1368 Fulton Street, 3rd Floor",11216,Music,40.680175,-73.945717,cultural_center,-1
+135,"P.S.1 Contemporary Art Center, Inc.",22-25 Jackson Avenue,11101,Visual Arts,40.745668,-73.946068,cultural_center,-1
+136,Global Artists Coalition Incorporated,323 W. 138TH Street,10030,Museum,40.81884,-73.946103,cultural_center,-1
+137,Children's Art Carnival,62 Hamilton Terrace,10031,Visual Arts,40.823075,-73.946309,cultural_center,-1
+138,"Harlem Opera Theater, Inc.",425 West 144th Street,10031,Music,40.823821,-73.94633,cultural_center,-1
+139,"Mama Foundation for the Arts, Inc.",149 West 126th Street,10027,Music,40.809036,-73.946375,cultural_center,-1
+140,Hispanic Society of America,613 West 155th Street,10032,Museum,40.833063,-73.946478,cultural_center,-1
+141,"Musicians For Harmony, Inc.","345 East 93rd Street, Ste. 12B",10128,Music,40.781501,-73.946545,cultural_center,-1
+142,"Puerto Rican Workshop, Inc.",1680 Lexington Avenue,10029,Visual Arts,40.791881,-73.946558,cultural_center,-1
+143,"National Black Touring Circuit, Inc.","790 Riverside Drive, Apt. 3E",10032,Theater,40.834787,-73.946852,cultural_center,-1
+144,Studio Museum in Harlem,144 West 125th Street,10027,Visual Arts,40.808523,-73.947278,cultural_center,-1
+145,"Variations Theatre Group, Inc.",21- 28 45th Rd,11101,Theater,40.746588,-73.94745,cultural_center,-1
+146,"Museum of African American Cinema, Inc.","163 West 125th Street, Suite 903",10027,Museum,40.808644,-73.947524,cultural_center,-1
+147,"Hands On Sign Interpreted Performances, Inc.","159-00 Riverside Drive West, Ste. 7F",10032,Theater,40.837414,-73.947996,cultural_center,-1
+148,"New York Classical Theatre, Inc.","40 West 116th Street, #B1004",10026,Theater,40.80145,-73.948342,cultural_center,-1
+149,Romare Bearden Foundation,"2090 Adam Clayton Powell, Jr. Blvd",10027,Visual Arts,40.808639,-73.948582,cultural_center,-1
+150,"artHARLEM, Inc.","104 West 119th Street, Suite 3",10026,Visual Arts,40.804181,-73.948827,cultural_center,-1
+151,"Harmony Program, Inc.",535 East 80th Street,10075,Music,40.771681,-73.948986,cultural_center,-1
+152,"LonGar Ebony Ensemble, Ltd.",119 West 119th Street,10026,Music,40.80431,-73.949087,cultural_center,-1
+153,Dorsky Gallery Curatorial Programs,11-03 45 Avenue,11101,Visual Arts,40.747722,-73.94943,cultural_center,-1
+154,"Composers Concordance, Inc.",1510 york ave #2b,10075,Music,40.771967,-73.950004,cultural_center,-1
+155,"World Civic Orchestra, Inc.",530 E. 76th Street,10021,Music,40.769077,-73.95101,cultural_center,-1
+156,"Roosevelt Island Youth Program, Inc.",506 Main Street,10044,Music,40.760706,-73.951106,cultural_center,-1
+157,Daniel's Music Foundation,1641 Third Avenue,10128,Music,40.782491,-73.951292,cultural_center,-1
+158,Amigos del Museo del Barrio,1230 Fifth Avenue,10029,Visual Arts,40.793072,-73.951992,cultural_center,-1
+159,"Central Park Brass, Inc.","1435 Lexington Avenue, #7F",10128,Music,40.784248,-73.952103,cultural_center,-1
+160,Museum of the City of New York,1220 Fifth Avenue,10029,Museum,40.792438,-73.952448,cultural_center,-1
+161,FCBC Community Development Corporation,1912 Adam Clayton Powell Jr. Blvd.,10026,Theater,40.802841,-73.952813,cultural_center,-1
+162,"Musica De Camara, Inc.",1215 Fifth Avenue,10029,Music,40.79181,-73.9529,cultural_center,-1
+163,Ballet Orchestra of New York City,438 East 76th Street #4-C,10021,Music,40.769984,-73.953168,cultural_center,-1
+164,"American Performing Arts Collaborative, Inc.",6 Hancock Place,10027,Theater,40.81029,-73.953685,cultural_center,-1
+165,"First Baptist Church of Crown Heights, Inc.",450 Eastern Parkway,11225,Music,40.670028,-73.953728,cultural_center,-1
+166,"Living Image Arts, Inc.",1072 Lorimer Street,11222,Theater,40.727372,-73.953851,cultural_center,-1
+167,"Canticorum Virtuosi, Inc.",1392 Madison Avenue,10029,Music,40.78763,-73.953885,cultural_center,-1
+168,"Lot Radio, Inc.",17 Nassau Ave,11222,Music,40.722722,-73.953966,cultural_center,-1
+169,"Tribeca New Music, Inc.","640 West 139th Street, Apt. 60",10031,Music,40.823048,-73.954211,cultural_center,-1
+170,"Stolen Chair Theatre Company, Inc.","64 East 94th Street, Apt. 5G",10128,Theater,40.78564,-73.954461,cultural_center,-1
+171,"Rejoicensemble, Inc.",1877 Ocean Avenue Suite 1E,11230,Music,40.615772,-73.954501,cultural_center,-1
+172,"Arcos Orchestra, Ltd.",17 E 96th St 14B,10128,Music,40.78765,-73.955138,cultural_center,-1
+173,"Diller-Quaile School of Music, Inc.",24 East 95th Street,10128,Music,40.786829,-73.955341,cultural_center,-1
+174,Friends of City Reliquary Incorporated,370 Metropolitan Avenue,11211,Museum,40.714077,-73.955711,cultural_center,-1
+175,Pellettieri Stone Carvers' Academy,"114 morningside drive, apartment 52",10027,Visual Arts,40.80991,-73.957157,cultural_center,-1
+176,"Broadway Housing Communities, Inc.",583 Riverside Drive,10031,Visual Arts,40.821356,-73.957193,cultural_center,-1
+177,Jewish Museum,1109 Fifth Avenue,10128,Museum,40.785298,-73.957263,cultural_center,-1
+178,AAMC Foundation,174 East 80th Street,10075,Visual Arts,40.77528,-73.957562,cultural_center,-1
+179,"Coalition to Preserve Reggae Music, Inc.",1199 Ocean Avenue,11230,Music,40.633332,-73.957818,cultural_center,-1
+180,"Cooper-Hewitt, National Design Museum",2 East 91st Street,10128,Museum,40.784607,-73.957866,cultural_center,-1
+181,"Circus Amok, Inc.","190 Bedford Avenue, Apt. 213",11211,Theater,40.717564,-73.958031,cultural_center,-1
+182,"School News Nationwide, Inc.",1068 Fulton Street,11238,Visual Arts,40.68164,-73.958137,cultural_center,-1
+183,Musica Viva Inc.,1157 Lexington Ave,10075,Music,40.775377,-73.95858,cultural_center,-1
+184,National Academy of Design,1083 Fifth Avenue,10128,Museum,40.78377,-73.958781,cultural_center,-1
+185,"Booklyn, Inc.",37 Greenpoint Avenue,11222,Visual Arts,40.729756,-73.958998,cultural_center,-1
+186,New York Conservatory of Music,321 East 69th Street,10021,Music,40.766583,-73.95908,cultural_center,-1
+188,Solomon R. Guggenheim Foundation,1071 Fifth Avenue,10128,Museum,40.782925,-73.959391,cultural_center,-1
+189,"Take Wing and Soar Productions, Inc.","45 Tiemann Place, Ste. 3G",10027,Theater,40.815436,-73.959465,cultural_center,-1
+190,Southside United Housing Development Fund Corp,213 South 4th Street,11211,Museum,40.710664,-73.959594,cultural_center,-1
+191,"Fulton Art Fair, Inc.",57 Putnam Avenue,11238,Visual Arts,40.682901,-73.959925,cultural_center,-1
+192,"Harlem Chamber Players, Inc.",191 Claremont Avenue #25,10027,Music,40.814874,-73.960206,cultural_center,-1
+193,Beth Morrison Projects,666 Ocean Avenue #D1,11226,Music,40.646568,-73.960354,cultural_center,-1
+194,Colonial Dames of America/Mount Vernon Hotel Museum & Garden,421 East 61st Street,10065,Museum,40.760589,-73.960401,cultural_center,-1
+195,"CBD Music, Inc.",552 Riverside Drive,10027,Music,40.816576,-73.960545,cultural_center,-1
+196,"Music Before 1800, Inc.",529 West 121 Street,10027,Music,40.810834,-73.960664,cultural_center,-1
+197,"Original Music Workshop, Inc.",80 N. 6th Street,11249,Music,40.719113,-73.961277,cultural_center,-1
+198,Willie Mae Rock Camp for Girls,495 Flatbush Avenue,11225,Music,40.662184,-73.961754,cultural_center,-1
+199,Manhattan School of Music,120 Claremont Avenue,10027,Music,40.812588,-73.961848,cultural_center,-1
+200,South Wing Theatre Company,"221 East 18th Street, Ste. 3",11226,Theater,40.645814,-73.962376,cultural_center,-1
+202,Metropolitan Museum of Art,1000 Fifth Avenue,10028,Visual Arts,40.778633,-73.962546,cultural_center,-1
+203,"Omni Ensemble, Ltd.",23 Wellington Court,11230,Music,40.630748,-73.962672,cultural_center,-1
+204,Brooklyn Institute of Arts and Sciences,200 Eastern Parkway,11238,Visual Arts,40.671835,-73.963042,cultural_center,-1
+205,"Orpheus Chamber Orchestra, Inc.","490 Riverside Drive, 11th Floor",10027,Music,40.812306,-73.963607,cultural_center,-1
+206,ID Studio Theater Performance and Research Center,531 West 112th Street,10025,Theater,40.804684,-73.963915,cultural_center,-1
+207,"13 Playwrights, Inc.","195 Willoughby Avenue, #402",11205,Theater,40.692048,-73.964181,cultural_center,-1
+208,Whitney Museum of American Art,945 Madison Avenue,10021,Museum,40.773457,-73.964199,cultural_center,-1
+209,"Aks Chorale, Inc.",429 East 52nd Street,10022,Music,40.754801,-73.964447,cultural_center,-1
+210,Asia Society,725 Park Avenue,10021,Museum,40.770032,-73.964594,cultural_center,-1
+211,"Sweet Jane Productions, Inc.","37 Grand Avenue, 3rd Floor",11205,Theater,40.696728,-73.964666,cultural_center,-1
+212,So Percussion,20 Grand Avenue,11205,Music,40.697112,-73.964763,cultural_center,-1
+213,"Theater Three Collaborative, Inc.",14A St. James Place,11205,Theater,40.689309,-73.965077,cultural_center,-1
+214,"Pride Not Prejudice, Inc.",407 Rugby Rd,11226,Theater,40.639804,-73.965096,cultural_center,-1
+215,"East River Ensemble, Inc.","58 Grand Street, 1st Floor",11211,Theater,40.715908,-73.965099,cultural_center,-1
+216,"Association for Development of Dramatic Arts, Inc.","301 East 57th St., 3rd Fl.",10022,Theater,40.759264,-73.96517,cultural_center,-1
+217,Emmanuel Baptist Church in Brooklyn,279 Lafayette Avenue,11238,Music,40.688279,-73.965287,cultural_center,-1
+218,"New York Collegium, Inc.",869 Lexington Avenue,10021,Music,40.766118,-73.965336,cultural_center,-1
+219,"Character Studies Productions, Inc.",202 West 107th Street 6-W,10025,Theater,40.801229,-73.965513,cultural_center,-1
+220,"Inoue Chamber Ensemble, Inc.","440 Riverside Drive, Suite 126",10027,Music,40.808999,-73.965686,cultural_center,-1
+221,"Roust Theatre Company, Inc.","211 West 107th Street, Apt. 5W",10025,Theater,40.801363,-73.965791,cultural_center,-1
+222,Death By Audio,49 South 2nd St,11221,Music,40.71452,-73.965955,cultural_center,-1
+223,Myrtle Avenue Revitalization Project,"472 Myrtle Avenue, Second Floor",11205,Visual Arts,40.693377,-73.966431,cultural_center,-1
+224,Council of Peoples Organization,1081 Coney Island Avenue,11230,Music,40.631068,-73.966441,cultural_center,-1
+225,"Repast Ensemble, Inc.",61 Eastern Pkwy,11238,Music,40.672797,-73.966513,cultural_center,-1
+226,"Society of Illustrators, Inc.",128 East 63rd Street,10065,Museum,40.764897,-73.966774,cultural_center,-1
+227,"TENET NYC, Inc.",262 West 107th Street,10025,Music,40.801836,-73.966947,cultural_center,-1
+228,"Brave New World Repertory Theatre, Inc.",303 Westminster Road,11218,Theater,40.641295,-73.967271,cultural_center,-1
+229,"Naumburg Orchestral Concerts, Inc.","300 Central Park West, Apt. 18 H",10024,Music,40.788063,-73.967315,cultural_center,-1
+230,"Collaborative Urban Sculpture, Inc.",62 Washington Ave. #1,11205,Visual Arts,40.69688,-73.967587,cultural_center,-1
+231,Frick Collection,1 East 70th Street,10021,Museum,40.771054,-73.967749,cultural_center,-1
+232,"Bedlam, Inc.","2753 Broadway,",10025,Theater,40.801216,-73.967901,cultural_center,-1
+233,"Bloomingdale School of Music, Inc.",323 West 108th Street,10025,Music,40.80314,-73.968073,cultural_center,-1
+234,Opera on Tap,320 Stratford Road,11218,Music,40.640787,-73.968144,cultural_center,-1
+235,Dicapo Opera Theatre Corp.,"220 East 54th Street, Ste. 11J",10022,Music,40.758033,-73.968261,cultural_center,-1
+236,New York Repertory Orchestra,"949 West End Avenue, Ste. 4D",10025,Music,40.801842,-73.968457,cultural_center,-1
+237,"Nicholas Roerich Museum, Inc.",319 West 107 Street,10025,Museum,40.802517,-73.968507,cultural_center,-1
+238,"Impact Theatre, Inc.","210 West 101st Street, #2B",10025,Theater,40.797538,-73.968755,cultural_center,-1
+239,Turtle Bay Music School,244 East 52nd Street,10022,Music,40.75663,-73.968814,cultural_center,-1
+240,"Brazilian Endowment for the Arts, Inc.",240E 52nd street,10022,Music,40.756658,-73.968879,cultural_center,-1
+241,"Japan Society, Inc.",333 East 47th Street,10017,Museum,40.752645,-73.969054,cultural_center,-1
+242,"New Amsterdam Presents, Inc.",417 Myrtle Ave. #101,11205,Music,40.693133,-73.969121,cultural_center,-1
+243,"Edge Theater Company, Inc.","880 Third Avenue, 16th floor",10022,Theater,40.75791,-73.969254,cultural_center,-1
+245,"Making Books Sing, Inc.",340 East 46th Street,10017,Theater,40.751943,-73.969339,cultural_center,-1
+246,"Creative Alternatives of New York, Inc.",225 West 99th Street,10025,Theater,40.796267,-73.969586,cultural_center,-1
+247,"New York Gilbert & Sullivan Players, Inc.",225 West 99th Street,10025,Theater,40.796267,-73.969586,cultural_center,-1
+248,"Riverside Symphony, Inc.",225 West 99th Street,10025,Music,40.796267,-73.969586,cultural_center,-1
+249,"Western Wind Vocal Ensemble, Inc.",225 West 99th Street,10025,Music,40.796267,-73.969586,cultural_center,-1
+250,"Strange Sun Theater, Inc.",65 west 90th street,10024,Theater,40.788816,-73.969712,cultural_center,-1
+251,"Gotham Early Music Scene, Inc.","340 Riverside Drive, Apt. 1A",10025,Music,40.8023,-73.969728,cultural_center,-1
+252,Opera New York,309 West 104th Street 1D,10025,Music,40.80047,-73.969812,cultural_center,-1
+253,Puerto Rican Traveling Theatre Company Inc.,141 West 94th Street,10025,Theater,40.792225,-73.970029,cultural_center,-1
+254,Harpsichord Unlimited,"215 W 98th St., Suite 2A",10025,Music,40.79568,-73.970146,cultural_center,-1
+255,"Forty Greene Avenue Cultural Center, Inc.",54 Greene Avenue,11238,Theater,40.686184,-73.970321,cultural_center,-1
+256,Historic House Trust of New York City,830 Fifth Avenue,10065,Museum,40.767711,-73.970516,cultural_center,-1
+257,"En Garde Arts, Inc.","27 West 86th Street, #2A",10023,Theater,40.785879,-73.970703,cultural_center,-1
+258,"Either/Or, Inc.",321 East 43rd Street,10017,Music,40.750098,-73.970755,cultural_center,-1
+259,"Frog & Peach Theatre Company, Inc.","840 West End Avenue, Apt. B1",10025,Theater,40.798535,-73.970802,cultural_center,-1
+260,"Twin Lions, Inc.","2576 Broadway, No. 412",10025,Music,40.795417,-73.971208,cultural_center,-1
+261,Untitled Theater Company #61,"215 West 95th Street, #11G",10025,Theater,40.79363,-73.971429,cultural_center,-1
+262,"Harmonie Ensemble, Inc.","820 West End Avenue, Ste. 13B",10025,Music,40.797662,-73.971438,cultural_center,-1
+263,Broken Box Mime Theater,201 W 94th St. #1A,10025,Theater,40.792842,-73.971505,cultural_center,-1
+264,"Spellbound Theatre, Inc",941 President Street,11215,Theater,40.672277,-73.971885,cultural_center,-1
+265,"Educational Theater of New York, Inc.",228 East 45th Street,10017,Theater,40.752355,-73.972266,cultural_center,-1
+266,"Breakthru Education, Inc.",235 Lincoln Place,11217,Theater,40.675041,-73.9728,cultural_center,-1
+268,"Rising Circle Theater Collective, Inc.",212 South Oxford Street,11217,Theater,40.683198,-73.972861,cultural_center,-1
+269,Freestyle Repertory Theatre,"120 West 86th Street, Apt. 1A",10024,Theater,40.786769,-73.972866,cultural_center,-1
+270,Evangelical Lutheran Church of the Advent,2504 Broadway,10025,Music,40.792909,-73.97304,cultural_center,-1
+271,ANDHOW! Theater Company Inc.,"138 South Oxford Street, Ste. 4C",11217,Theater,40.685073,-73.973221,cultural_center,-1
+272,"American Opera Projects, Inc.",138 South Oxford Street #3B,11217,Music,40.685073,-73.973221,cultural_center,-1
+273,"Colt Coeur Theater Company, Inc.",138 South Oxford Street,11217,Theater,40.685073,-73.973221,cultural_center,-1
+274,"Desipina Productions, Inc.","138 South Oxford Street, Apt. 1C",11217,Theater,40.685073,-73.973221,cultural_center,-1
+275,"Kings County Shakespeare Company, Inc.","138 South Oxford Street, #1C",11217,Theater,40.685073,-73.973221,cultural_center,-1
+276,Live Source Inc.,138 S Oxford St,11217,Theater,40.685073,-73.973221,cultural_center,-1
+277,"New York Deaf Theatre, Ltd.","138 South Oxford Street, #4F",11217,Theater,40.685073,-73.973221,cultural_center,-1
+278,"Nia Theatrical Production Co, Inc.",138 South Oxford Street,11217,Theater,40.685073,-73.973221,cultural_center,-1
+279,"Ripe Time, Inc.","138 South Oxford Street, Ste. 4D",11217,Theater,40.685073,-73.973221,cultural_center,-1
+280,Rabbit Hole Ensemble,415 Ocean Parkway,11218,Theater,40.638928,-73.97325,cultural_center,-1
+281,"Irondale Productions, Inc.",85 S. Oxford St,11217,Theater,40.686918,-73.973563,cultural_center,-1
+282,"BCT Brooklyn Children's Theatre, Inc.",135 Prospect Park SW #B7,11218,Theater,40.656017,-73.973683,cultural_center,-1
+283,"Da Capo Chamber Players, Inc.","215 West 90th Street, Ste. 1G",10024,Music,40.790494,-73.973717,cultural_center,-1
+284,New-York Historical Society,170 Central Park West,10024,Museum,40.779265,-73.973743,cultural_center,-1
+285,"New Worlds Theatre Project, Inc.","670 West End Avenue, Ste. 16A",10025,Theater,40.793079,-73.974297,cultural_center,-1
+286,"Melting Pot Theatre, Inc.","2444 Broadway, Suite 231",10024,Theater,40.791029,-73.974417,cultural_center,-1
+287,"Bang on a Can, Inc.","80 Hanson Place, Ste. 701",11217,Music,40.685488,-73.974421,cultural_center,-1
+288,"Museum of Contemporary African Diasporian Arts, Inc.",80 Hanson Place,11217,Museum,40.685488,-73.974421,cultural_center,-1
+289,"Page Seventy-Three Productions, Inc.",80 Hanson Place,11217,Theater,40.685488,-73.974421,cultural_center,-1
+290,"Theater Garden, Ltd.",304 Windsor Place,11218,Theater,40.656711,-73.974483,cultural_center,-1
+291,"Prospect Park Alliance, Inc.",95 Prospect Park West,11215,Museum,40.667391,-73.974508,cultural_center,-1
+292,Brooklyn Conservatory of Music,58 Seventh Avenue,11217,Music,40.675843,-73.974533,cultural_center,-1
+293,"Smith Street Stage, Inc.",125 Ocean Parkway,11218,Theater,40.647385,-73.974573,cultural_center,-1
+294,Drilling Company Theatrical Productions,"107 West 82nd Street, Ste. 1A",10024,Theater,40.78414,-73.9746,cultural_center,-1
+295,"Brooklyn Youth Music Project, Inc.",296 Windsor Pl,11218,Music,40.656816,-73.974703,cultural_center,-1
+296,"Music Outreach/Learning Through Music, Inc.",677 West End Avenue,10025,Music,40.793197,-73.974723,cultural_center,-1
+297,"Gotham Stage Company, Inc.",288 W. 92nd Street,10025,Theater,40.792544,-73.974738,cultural_center,-1
+298,Honest Accomplice Theatre Inc.,592 16th Street,11218,Theater,40.657708,-73.974818,cultural_center,-1
+299,Chamber Orchestra of New York Ottorino Respighi,"450 Lexington Avenue, #1514",10163,Music,40.753102,-73.974854,cultural_center,-1
+300,"Anti-Social Music, Inc.",71 Ocean Parkway 3H,11218,Music,40.649369,-73.974922,cultural_center,-1
+301,"Dieu Donne Paper Mill, Inc.","63 Flushing Avenue, Unit 112",11205,Visual Arts,40.69802,-73.974986,cultural_center,-1
+302,Ethel's Foundation for the Arts,"132 East 43rd Street, #213",10017,Music,40.751969,-73.97523,cultural_center,-1
+303,"Blue Heron Theatre, Inc.","645 West End Avenue, Suite 7B",10025,Theater,40.792388,-73.975316,cultural_center,-1
+304,"Horizon Concerts, Inc.","420 Lexington Ave., Suite 300",10170,Music,40.752262,-73.975464,cultural_center,-1
+305,"Public Art Fund, Inc.","1 East 53rd Street, 11th Floor",10022,Visual Arts,40.760324,-73.975584,cultural_center,-1
+306,Dare2Draw,23 West 73rd Street,10023,Visual Arts,40.777182,-73.976108,cultural_center,-1
+307,"Speculum Musicae, Inc.","255 West 88th St., Apt. 10C",10024,Music,40.789874,-73.97614,cultural_center,-1
+308,EPIC Players Inc,115 Central Park West,10023,Theater,40.775878,-73.976217,cultural_center,-1
+309,"Education Through Music, Inc.","122 East 42nd Street, Ste. 1501",10168,Music,40.751601,-73.97645,cultural_center,-1
+310,"Composers Collaborative, Inc.","210 Riverside Drive, Apt. 11G",10025,Music,40.79423,-73.976518,cultural_center,-1
+311,"Red Fern Theatre Company, Inc.","160 East 38th Street, #10D",10016,Theater,40.74842,-73.976721,cultural_center,-1
+312,"Hotel Savant Theatre Company, Inc.","2350 Broadway, #1207",10024,Theater,40.788007,-73.976747,cultural_center,-1
+313,Music in the Center,"2350 Broadway, Ste. 203",10024,Music,40.788007,-73.976747,cultural_center,-1
+314,Musicals Tonight! Inc.,"150 West 79th Street, Ste. 9A",10024,Theater,40.782551,-73.97693,cultural_center,-1
+315,Children's Museum of Manhattan,212 West 83rd Street,10024,Museum,40.785946,-73.976961,cultural_center,-1
+316,"Instituto Arte Teatral Internacional, Inc.","20 West 72nd Street, Ste. 808",10023,Theater,40.776727,-73.977188,cultural_center,-1
+317,Museum of Modern Art,11 West 53rd Street,10019,Museum,40.761002,-73.977201,cultural_center,-1
+318,"Vampire Cowboys, Inc.",170 East 4th Street,11218,Theater,40.648222,-73.977383,cultural_center,-1
+319,"TheatreMoves, Inc.",275 East 7th Street #4,10009,Theater,40.723484,-73.977419,cultural_center,-1
+320,"Storm Theatre, Inc.","32 West 72 Street, Suite 2B",10023,Theater,40.776949,-73.977719,cultural_center,-1
+321,Paley Center for Media,25 West 52nd Street,10019,Museum,40.760445,-73.977829,cultural_center,-1
+322,Stecher and Horowitz Foundation,"119 West 57th Street, Ste. 1401",10019,Music,40.764655,-73.977972,cultural_center,-1
+323,Korea Society,"350 Madison Avenue, 24th Floor",10017,Visual Arts,40.754374,-73.978145,cultural_center,-1
+324,"Perlman Music Program, Inc.","19 West 69th Street, #501",10023,Music,40.774622,-73.978153,cultural_center,-1
+325,"Early Music Foundation, Inc.",10 West 68th Street,10023,Music,40.773809,-73.978211,cultural_center,-1
+326,"Great Small Works, Inc.","315 West 86th Street, Apt. 4E",10024,Theater,40.789163,-73.978498,cultural_center,-1
+327,"Shotgun Productions, Inc.","165 East 35th Street, Suite 7J",10016,Theater,40.746768,-73.978505,cultural_center,-1
+328,Horizon Theatre Rep,117 East 37th St,10016,Theater,40.748615,-73.979053,cultural_center,-1
+329,Temporary Distortion Theater Corp.,"332 East 4th Street, #44",10009,Theater,40.721807,-73.979065,cultural_center,-1
+330,"UrbanGlass: New York Contemporary Glass Center, Inc.",647 Fulton St.,11215,Visual Arts,40.688236,-73.979212,cultural_center,-1
+331,"Martina Arroyo Foundation, Inc.","200 Central Park South, Apt. 20-I",10019,Music,40.767022,-73.979448,cultural_center,-1
+332,"St. Cecilia Club, Inc.",PO Box 421 FDR Station,10150,Music,40.712269,-73.979638,cultural_center,-1
+333,"Letter of Marque Theater, Incorporated",172 5th Ave No. 191,11217,Theater,40.677501,-73.979731,cultural_center,-1
+334,"Queer Urban Orchestra, Inc.","P.O. Box 438, Radio City Station",10101,Music,40.760111,-73.979919,cultural_center,-1
+335,"Ten O'Clock Classics, Inc.","230 Central Park South, Ste. 9F",10019,Music,40.767239,-73.979968,cultural_center,-1
+336,"Art of the Early Keyboard, Inc.","170 West 73rd Street, Apt. 3C",10023,Music,40.778865,-73.980145,cultural_center,-1
+337,"Lyric Chamber Music Society of New York, Inc.","20 West 64th Street, Apt. 27H",10023,Music,40.77143,-73.980335,cultural_center,-1
+338,"Young People's Chorus of New York City, Inc.",37 West 65th Street,10023,Music,40.772281,-73.980363,cultural_center,-1
+339,Museum of Music & Entertainment in New York City,"550 Grand Street, H3A",10002,Music,40.714117,-73.980402,cultural_center,-1
+340,"Creative Ammo, Inc.","18 East 41st Street, Suite 1806",10017,Theater,40.752417,-73.980448,cultural_center,-1
+341,"New York Theatre Experience, Inc.",155 E. 31st Street   #10B,10016,Theater,40.744257,-73.980512,cultural_center,-1
+342,"Visible Theatre, Inc.","201 East 28th Street, #3E",10016,Theater,40.741921,-73.980715,cultural_center,-1
+343,Art Students League of New York,215 West 57th Street,10019,Visual Arts,40.765864,-73.980824,cultural_center,-1
+344,Art Connects New York,"4 West 43rd Street, #507",10036,Visual Arts,40.754371,-73.980932,cultural_center,-1
+345,Opportunity Music Project Foundation,4 West 43rd Street,10036,Music,40.754371,-73.980932,cultural_center,-1
+346,"Vital Theatre Company, Inc.","2162 Broadway, Fourth floor",10024,Theater,40.781912,-73.980996,cultural_center,-1
+347,"Resonant Bodies Festival, Inc.",509 Atlantic Ave.,11217,Music,40.685484,-73.981085,cultural_center,-1
+348,"Roulette Intermedium, Inc.",509 Atlantic Avenue,11217,Music,40.685484,-73.981085,cultural_center,-1
+349,"Concert Artists Guild, Inc.",850 Seventh Avenue,10019,Music,40.763942,-73.981192,cultural_center,-1
+350,Mendelssohn Glee Club,"393 West End Avenue, Apt. 8C",10024,Music,40.784133,-73.981335,cultural_center,-1
+351,Mexican American Symphony Orchestra,30 West 63rd Street,10023,Music,40.77109,-73.981454,cultural_center,-1
+352,"Puppet Works, Inc.",338 6th Avenue,11215,Theater,40.670966,-73.981507,cultural_center,-1
+353,"Lower East Side Community Music Workshop, Inc.","95 Avenue B, 1st floor",10009,Music,40.724629,-73.981525,cultural_center,-1
+354,Pierpont Morgan Library,225 Madison Avenue,10016,Museum,40.749387,-73.981763,cultural_center,-1
+355,"Young Concert Artists, Inc.",1776 Broadway,10019,Music,40.766481,-73.981809,cultural_center,-1
+356,Museum of Arts & Design,2 Columbus Circle,10019,Museum,40.7677,-73.981957,cultural_center,-1
+357,"Harmonia Opera Company, Inc.",2109 Broadway,10023,Music,40.780408,-73.982076,cultural_center,-1
+358,"Marilyn Horne Foundation, Inc.","250 West 57th Street, Ste. 603",10107,Music,40.766391,-73.982119,cultural_center,-1
+359,Museum of Biblical Art,1865 Broadway,10023,Museum,40.769995,-73.982137,cultural_center,-1
+360,"VisionIntoArt Presents, Inc.",25 Columbus Circle 68B,10019,Music,40.768304,-73.982278,cultural_center,-1
+361,"American Center for Musical Arts, Inc.","201 West 72nd Street, Ste. 3-K",10023,Music,40.778954,-73.982412,cultural_center,-1
+362,"Philharmonic - Symphony Society of New York, Inc.",10 Lincoln Center Plaza,10023,Music,40.772473,-73.982421,cultural_center,-1
+363,"Doing Art Together, Inc.","1841 Broadway,  Apt. 704",10023,Visual Arts,40.769158,-73.982429,cultural_center,-1
+364,"Lincoln Square District Management Association, Inc.","1841 Broadway, Ste. 1112",10023,Music,40.769158,-73.982429,cultural_center,-1
+365,"Latino International Theater Festival of New York, Inc.","142 East 27th Street, Ste. 1A",10016,Theater,40.74182,-73.982447,cultural_center,-1
+366,"Festival of North American Orchestras, Inc.",470 Park Avenue South,10016,Music,40.745492,-73.982515,cultural_center,-1
+367,Feed Your Mind Music,147 Prince Street,11201,Music,40.692648,-73.982532,cultural_center,-1
+368,"Vocal Ease, Inc.","240 West 73rd Street, Ste. 1403",10023,Music,40.779876,-73.982553,cultural_center,-1
+369,"Spanish Theatre Repertory Company, Ltd.",138 East 27th Street,10016,Theater,40.741886,-73.982599,cultural_center,-1
+370,"Jupiter Symphony of New York, Inc.","155 West 68th Street, Apt. 319",10023,Music,40.775704,-73.982659,cultural_center,-1
+371,Elaine Kaufman Cultural Center/Lucy Moses School for Music and Dance,129 West 67th Street,10023,Music,40.774919,-73.982745,cultural_center,-1
+372,"Metropolitan Opera Association, Inc.",30 Lincoln Center,10023,Music,40.772031,-73.98275,cultural_center,-1
+373,"Kenkeleba House, New York",214 East Second Street,10009,Visual Arts,40.721794,-73.982889,cultural_center,-1
+374,American Symphony Orchestra League,"33 West 60th Street, 5th Floor",10023,Music,40.769303,-73.983003,cultural_center,-1
+375,American Composers Orchestra,244 West 54th Street,10019,Music,40.764261,-73.983037,cultural_center,-1
+376,"Opera Orchestra of New York, Inc.","239 West 72nd Street, Ste. 2R",10023,Music,40.779228,-73.983069,cultural_center,-1
+377,Oratorio Society of New York,1140 Avenue of the Americas,10036,Music,40.75623,-73.98309,cultural_center,-1
+378,"City Grand Opera Society, Inc.","250 West 54th Street, Suite 807",10019,Music,40.764308,-73.983145,cultural_center,-1
+379,"Parsifal's Productions, Inc.",220 East 4th Street,10009,Theater,40.7236,-73.983296,cultural_center,-1
+380,Synapse Productions,220 East 4th Street,10009,Theater,40.7236,-73.983296,cultural_center,-1
+381,Present Theatre Company,518 East 6th Street,10009,Theater,40.725192,-73.983317,cultural_center,-1
+382,"American Globe Theatre, Ltd.","145 West 46th Street, 3rd Floor",10036,Theater,40.757946,-73.983547,cultural_center,-1
+383,"Chamber Music Society of Lincoln Center, Inc.","70 Lincoln Center Plaza, Tenth Floor",10023,Music,40.773626,-73.983591,cultural_center,-1
+384,"Vivian Beaumont Theater, Inc.",150 West 65th Street,10023,Theater,40.773621,-73.983619,cultural_center,-1
+385,NY JAZZ Initiative,149 W. 46th Street,10036,Music,40.757981,-73.983627,cultural_center,-1
+386,"All For One Theater Festival, Inc.",1650 Broadway,10019,Theater,40.761964,-73.983684,cultural_center,-1
+387,National Choral Council,"1650 Broadway, Ste. 301",10019,Music,40.761964,-73.983684,cultural_center,-1
+388,International Center of Photography,1114 Avenue of the Americas,10036,Museum,40.755352,-73.983732,cultural_center,-1
+389,"Out of the Box Theatre Company, Inc.","323 West 75th Street, Apt. C",10023,Theater,40.78214,-73.983939,cultural_center,-1
+390,"Circle in the Square Theatre School, Inc.",1633 Broadway,10019,Theater,40.761574,-73.983962,cultural_center,-1
+391,"Broadway League Foundation, Inc.","729 Seventh Avenue, 5th Flr",10019,Theater,40.760103,-73.983973,cultural_center,-1
+392,Theater for Personal Growth,"38 West 38th Street, 3rd Floor",10018,Theater,40.751512,-73.984058,cultural_center,-1
+393,Theatre Museum,"723 Seventh Avenue, 7th floor",10019,Museum,40.759974,-73.984067,cultural_center,-1
+394,Young New Yorker's Chorus,"194 East 2nd Street, 6F",10009,Music,40.722319,-73.984119,cultural_center,-1
+395,"Amas Musical Theatre, Inc.","257 West 52nd Street, 5th Floor",10019,Theater,40.763125,-73.984182,cultural_center,-1
+396,"Living Theatre, Inc.",21 Clinton Street,10002,Theater,40.720683,-73.984253,cultural_center,-1
+397,"Voyage Theater Company, Inc.",165 First Avenue,10003,Theater,40.728923,-73.984334,cultural_center,-1
+398,"Juneteenth Festival, Inc.","605 Water Street, Apt. 21B",10002,Theater,40.711249,-73.98445,cultural_center,-1
+399,"Theater for the New City Foundation, Inc.",155 First Avenue,10003,Theater,40.728505,-73.984634,cultural_center,-1
+400,"Organization of Puerto Rican Artists, Inc.",218 East 18th Street,10003,Visual Arts,40.735518,-73.98474,cultural_center,-1
+401,"Relationship Performance and Art Group, Inc.","100 Saint Mark's Place, Apt. 7",10009,Theater,40.727388,-73.984825,cultural_center,-1
+402,"Theatre-Studio, Inc.",123 East 24th Street,10010,Theater,40.740418,-73.984829,cultural_center,-1
+403,Alliance for Inclusion in the Arts,"1560 Broadway, Suite 1600",10036,Theater,40.75886,-73.984843,cultural_center,-1
+404,Times Square District Management Association,"1560 Broadway, Suite 1001",10036,Visual Arts,40.75886,-73.984843,cultural_center,-1
+405,Groundswell Community Mural Project,540 President St. Ste 1A,11215,Visual Arts,40.677354,-73.984973,cultural_center,-1
+406,Kalavant Center for Music and Dance,"326 East 11th Street, Ste. 2",10003,Music,40.729812,-73.985063,cultural_center,-1
+407,"Participant, Inc.","253 East Houston Street, Ground Floor",10002,Visual Arts,40.721877,-73.98518,cultural_center,-1
+408,"Glass Menagerie A Downtown Community Chorus, Inc.","201 East 17th Street, #21C",10003,Music,40.735041,-73.985375,cultural_center,-1
+409,"Downtown Music Productions, Inc.","310 East 12th Street, Apt. 2H",10003,Music,40.730789,-73.985391,cultural_center,-1
+410,"New York Asian Symphony Orchestra, Inc.","889 Ninth Avenue, Ste. 1",10019,Music,40.768321,-73.985433,cultural_center,-1
+411,"National Music Theater Network, Inc.","250 West 49th Street, Suite 601",10019,Theater,40.761193,-73.985478,cultural_center,-1
+412,Fiasco Theater LTD,80 Madison Ave,10016,Theater,40.744104,-73.985637,cultural_center,-1
+413,"New York Youth Symphony, Inc.","110 West 40th Street, Suite 1503",10018,Music,40.753818,-73.985696,cultural_center,-1
+414,"Big Apple Circus, Ltd.",One MetroTech Center-North,11201,Theater,40.694059,-73.985741,cultural_center,-1
+415,Sculptors Alliance Inc.,"305 East 11th Street, Apt. 5D",10003,Visual Arts,40.730136,-73.985777,cultural_center,-1
+416,"Negro Ensemble Company, Inc.","135 West 41st Street, 5th Floor",10036,Theater,40.754691,-73.985797,cultural_center,-1
+417,"League of American Theatres and Producers, Inc.","226 West 47th Street, 6th floor",10036,Theater,40.759713,-73.985854,cultural_center,-1
+418,Yara Arts Group,"306 East 11th Street, Apt. 3B",10003,Theater,40.730172,-73.985903,cultural_center,-1
+419,ABC No Rio,"107 Suffolk Street, #305",10002,Visual Arts,40.718943,-73.986122,cultural_center,-1
+420,"Afro-Asian, Inc.","107 Suffolk Street, Apt. 213-A",10002,Music,40.718943,-73.986122,cultural_center,-1
+421,Artist Exchange International on Broadway,"107 Suffolk Street, #35",10002,Visual Arts,40.718943,-73.986122,cultural_center,-1
+422,"Artists Alliance, Inc.","107 Suffolk Street, Room 411",10002,Visual Arts,40.718943,-73.986122,cultural_center,-1
+423,"Fantastic Experimental Latino Theater, Inc.","107 Suffolk Street, Ste. 311",10002,Theater,40.718943,-73.986122,cultural_center,-1
+424,"Society of the Educational Arts, Inc.","107 Suffolk Street, 2nd Floor",10002,Theater,40.718943,-73.986122,cultural_center,-1
+425,Phoenix Theatre Ensemble,"200 East 10th Street, #180",10003,Theater,40.72951,-73.986203,cultural_center,-1
+426,Children's Aid Society,105 East 22nd Street,10010,Music,40.739265,-73.986215,cultural_center,-1
+427,"New York Pops, Inc.",333 West 52nd Street,10019,Music,40.764004,-73.986264,cultural_center,-1
+428,"Chamber Music America, Inc.",12 West 32nd Street,10001,Music,40.747475,-73.986278,cultural_center,-1
+429,"Art in General, Inc.",20 Jay Street,11201,Visual Arts,40.704313,-73.986587,cultural_center,-1
+430,"Brooklyn Philharmonic Symphony Orchestra, Inc.","20 Jay Street, Suite M16",11201,Music,40.704313,-73.986587,cultural_center,-1
+431,"Looking Glass Theatre, Inc.",422 West 57th Street,10019,Theater,40.768277,-73.986592,cultural_center,-1
+432,New York Theatre Barn,401 W. 56th Street,10019,Theater,40.767429,-73.986625,cultural_center,-1
+433,Concrete Temple Theatre,"211 East 14th Street, Apt. 10",10003,Theater,40.733092,-73.986678,cultural_center,-1
+434,"MasterVoices, Inc.",1441 Broadway,10018,Music,40.754707,-73.986753,cultural_center,-1
+435,"Artists in Residence, Inc.",155 Plymouth Street,11201,Visual Arts,40.703784,-73.987077,cultural_center,-1
+436,"Gramercy Brass of New York, Inc.",111 East 19th Street,10003,Music,40.737333,-73.98719,cultural_center,-1
+437,Immaterial Incorporated,181 Wyckoff Street,11217,Visual Arts,40.68465,-73.987207,cultural_center,-1
+438,Lighthouse International,250 West 64th Street,10023,Music,40.774338,-73.987266,cultural_center,-1
+439,"Society of the Third Street Music School Settlement, Inc.",235 East 11th Street,10003,Music,40.730806,-73.987364,cultural_center,-1
+440,"Foundry Theatre, Inc.","140-142 Second Avenue, Ste. 405",10003,Theater,40.728956,-73.987401,cultural_center,-1
+441,Museum of Food and Drink,232 East 11th Street,10003,Museum,40.730817,-73.987433,cultural_center,-1
+442,A Blade of Grass Fund,81 Prospect Street,11201,Visual Arts,40.700663,-73.987536,cultural_center,-1
+443,"Watson Arts, Inc",147 Bergen Street,11217,Theater,40.685597,-73.987564,cultural_center,-1
+444,Latin American Theatre Ensemble Inc.,"350 West 51st Street,  Apt. 13-D",10019,Theater,40.76374,-73.987632,cultural_center,-1
+445,Theatre of the Oppressed NYC,"758 Eighth Avenue, Suite 300",10036,Theater,40.76007,-73.987709,cultural_center,-1
+446,"Council For Living Music, Inc.","322 West 48th Street, 3rd Floor",10036,Music,40.761399,-73.987896,cultural_center,-1
+447,Local 802 Senior Musicians Association,322 West 48th Street,10036,Music,40.761399,-73.987896,cultural_center,-1
+448,World Foundation for Music and Healing,1270 Broadway,10001,Music,40.748655,-73.988097,cultural_center,-1
+449,"New 42nd Street, Inc.","229 West 42nd Street, 10th Floor",10036,Theater,40.756571,-73.98819,cultural_center,-1
+450,"New Professional Theatre, Inc.","229 West 42nd Street, Apt. 501",10036,Theater,40.756571,-73.98819,cultural_center,-1
+451,Swiss Institute,"117 Second Avenue, Floor 2",10003,Visual Arts,40.727894,-73.988191,cultural_center,-1
+452,"Educational Alliance, Inc.",197 East Broadway,10002,Visual Arts,40.714219,-73.988219,cultural_center,-1
+453,Emerging Artists Theatre Company,"15 West 28th Street, Third Floor",10001,Theater,40.74515,-73.988383,cultural_center,-1
+454,"TADA! Theater and Dance Alliance, Inc.","15 West 28th Street, Third Floor",10001,Theater,40.74515,-73.988383,cultural_center,-1
+455,American Theatre Wing,"230 West 41st Street, Suite 1101",10036,Theater,40.755802,-73.988482,cultural_center,-1
+456,Research Foundation of CUNY,230 West 41st Street,10036,Theater,40.755802,-73.988482,cultural_center,-1
+457,"Women's Project and Productions, Inc.",55 West End Avenue,10023,Theater,40.774058,-73.988681,cultural_center,-1
+458,Friends of the New York Transit Museum,"130 Livingston Street, 10th Floor",11201,Museum,40.690782,-73.988753,cultural_center,-1
+459,"Ensemble 212, Inc.",301 W 45th St,10036,Music,40.759351,-73.988814,cultural_center,-1
+460,Rush Philanthropic Arts Foundation,"512 Seventh Avenue, 43rd Floor",10018,Visual Arts,40.753283,-73.98897,cultural_center,-1
+461,"D.U.M.B.O. Arts Center, Inc.","111 Front Street, #212",11201,Visual Arts,40.70251,-73.988975,cultural_center,-1
+462,"Around the Block, Inc.","5 East 22nd Street, Suite 9K",10010,Theater,40.740426,-73.988976,cultural_center,-1
+463,"CSC Repertory, Ltd.",136 East 13th Street,10003,Theater,40.733145,-73.988984,cultural_center,-1
+464,Paper Bag Players,185 East Broadway,10002,Theater,40.714154,-73.98902,cultural_center,-1
+465,"ACMP Associated Chamber Music Players, Inc.","1133 Broadway, Suite 810",10010,Music,40.743523,-73.989073,cultural_center,-1
+466,Classic Chamber Players,1133 Broadway,10010,Music,40.743523,-73.989073,cultural_center,-1
+467,"Only Make Believe, Inc.","1123 Broadway, Ste. 1003",10010,Theater,40.743254,-73.989123,cultural_center,-1
+468,"Vineyard Theatre and Workshop Center, Inc.",108 East 15th Street,10003,Theater,40.735011,-73.989139,cultural_center,-1
+469,"Studio in a School Association, Inc.",75 West End Avenue,10023,Visual Arts,40.77422,-73.989237,cultural_center,-1
+470,Manhattan Graphics Center,250 West 40th Street,10018,Visual Arts,40.75535,-73.989334,cultural_center,-1
+471,"Roundabout Theatre Company, Inc.","231 West 39th Street, Ste. 1200",10018,Theater,40.754576,-73.989363,cultural_center,-1
+472,"Issue Project Room, Inc.",22 Boerum Place,11201,Music,40.690903,-73.98938,cultural_center,-1
+473,"viBe Theater Experience, Inc.","30 Third Avenue, Suite 203",11217,Theater,40.730263,-73.989381,cultural_center,-1
+474,Creative Arts Team,"101 West 31st Street, 6th Floor",10001,Theater,40.748084,-73.989588,cultural_center,-1
+475,VSW ARTHOUSE CORP,55 Washington Street,11201,Music,40.70273,-73.989602,cultural_center,-1
+476,"Leviathan Lab, Inc.",413 West 50th Street,10019,Theater,40.763776,-73.989611,cultural_center,-1
+477,"Queen's Theatre Company, Inc.",Times Square Station,10108,Theater,40.756582,-73.989637,cultural_center,-1
+478,"New York Artists Equity Association, Inc.",245 Broome St,10002,Visual Arts,40.717944,-73.989668,cultural_center,-1
+479,"Play Production Company, Inc.","321 West 44th Street, Suite 802",10036,Theater,40.75889,-73.989669,cultural_center,-1
+480,Stage Directors and Choreographers Workshop Foundation,"321 West 44th Street, 8th Floor",10036,Theater,40.75889,-73.989669,cultural_center,-1
+481,Australian Aboriginal Theatre Initiative,60 2nd Avenue,10003,Theater,40.725827,-73.989678,cultural_center,-1
+482,Actors Company Theatre,"900 Broadway, Ste. 905",10003,Theater,40.739073,-73.989784,cultural_center,-1
+483,Ukrainian Museum,222 East Sixth Street,10003,Museum,40.727916,-73.989797,cultural_center,-1
+484,Second Stage Theatre,305 West 43rd Street,10036,Theater,40.758127,-73.989799,cultural_center,-1
+485,"FRIGID New York, Inc.",85 East 4th Street,10003,Theater,40.726393,-73.989887,cultural_center,-1
+486,Lark Theatre Company,311 West 43rd Street,10036,Theater,40.75818,-73.989922,cultural_center,-1
+487,"Manhattan Theatre Club, Inc.","311 West 43rd Street, Eighth Floor",10036,Theater,40.75818,-73.989922,cultural_center,-1
+488,Staret...The Directors Company,311 W. 43rd St,10036,Theater,40.75818,-73.989922,cultural_center,-1
+489,Lower East Side Tenement Museum,103 Orchard Street,10002,Museum,40.718592,-73.990007,cultural_center,-1
+490,"New York Theatre Workshop, Inc.",79 East 4th Street,10003,Theater,40.726483,-73.990096,cultural_center,-1
+491,"Smack Mellon Studios, Inc.",92 Plymouth Street,11201,Visual Arts,40.703875,-73.9901,cultural_center,-1
+492,"La Mama Experimental Theater Club, Inc.",74A East 4th Street,10003,Theater,40.726494,-73.990169,cultural_center,-1
+493,Converging Arts Media Organization,57 Stanton Street,10002,Visual Arts,40.721976,-73.990259,cultural_center,-1
+494,"Downtown Art Company, Inc.",70 East 4th Street,10003,Theater,40.726563,-73.990331,cultural_center,-1
+495,"52nd Street Project, Inc.",789 Tenth Avenue,10019,Theater,40.766661,-73.990365,cultural_center,-1
+496,"Big Apple Performing Arts, Inc.","676A 9th Avenue, Suite 405",10036,Music,40.761457,-73.990412,cultural_center,-1
+497,"Gallery Players, Inc.",199 14th Street,11215,Theater,40.666966,-73.990448,cultural_center,-1
+498,Loco7 Dance Puppet Theatre Company Incorporated,"69 East 4th Street, apt 4c",10003,Theater,40.726634,-73.99045,cultural_center,-1
+499,"American Symphony Orchestra, Inc.",263 West 38th Street,10018,Music,40.75423,-73.990468,cultural_center,-1
+500,Society for the Preservation and Encouragement of Barber Shop Quartet,"PO Box 522, Cooper Union Station",10276,Music,40.729365,-73.990486,cultural_center,-1
+501,"Manhattan Art Program, Inc.","800 6th avenue, suite 11C",10010,Visual Arts,40.745342,-73.990487,cultural_center,-1
+502,"Collapsable Giraffe, Inc.","251 Pacific Street, Apt. 25",11201,Theater,40.68835,-73.990499,cultural_center,-1
+503,"RX Art, Inc.",208 Forsyth Street,10002,Visual Arts,40.722934,-73.990519,cultural_center,-1
+504,"Stuttering Association for the Young, Inc.",247 W 37 Street,10018,Theater,40.753475,-73.990594,cultural_center,-1
+505,"Workmens Circle/Arbeter Ring, Inc.",247 W 37 Street,10018,Music,40.753475,-73.990594,cultural_center,-1
+506,"Teatro Circulo, Ltd.","65 East 4th Street, Apt. 11",10003,Theater,40.726695,-73.990594,cultural_center,-1
+507,"Open Source Gallery, Inc.",257 17th street,11215,Visual Arts,40.663312,-73.990618,cultural_center,-1
+508,eyeBLINK,"350 West 43rd Street, Apt. 32G",10036,Theater,40.758506,-73.990745,cultural_center,-1
+509,"Martin Luther King, Jr. Concert Series, Inc.","32 Court Street, Ste. 607",11201,Music,40.693014,-73.990758,cultural_center,-1
+510,"Seaside Summer Concert Series, Inc.","32 Court Street, Ste. 607",11201,Music,40.693014,-73.990758,cultural_center,-1
+511,Works In Progress NYC,59 E. 4th Street,10003,Visual Arts,40.726785,-73.990807,cultural_center,-1
+512,"Little Orchestra Society/Orpheon, Inc.","330 West 42nd Street, 12th Floor",10036,Music,40.757661,-73.990832,cultural_center,-1
+513,"Mint Theater Company, Inc.",330 West 42nd Street,10036,Theater,40.757661,-73.990832,cultural_center,-1
+514,"St. Luke's Chamber Ensemble, Inc.","330 West 42nd Street, 9th Floor",10036,Music,40.757661,-73.990832,cultural_center,-1
+515,"Waterwell Productions, Inc.",330 West 42nd Street,10036,Theater,40.757661,-73.990832,cultural_center,-1
+516,"American Place Theatre, Inc.","266 West 37th Street, 22nd Floor",10018,Theater,40.753632,-73.991009,cultural_center,-1
+517,Kehila Kedosha Janina Synagogue and Museum,280 Broome Street,10002,Museum,40.718466,-73.991328,cultural_center,-1
+518,id Theatre Inc,143 E. 8th Street,11218,Theater,40.730169,-73.991384,cultural_center,-1
+519,"Indochina Sino-American Senior Citizen Center, Inc.","170 Forsyth St, 2nd Fl",10002,Visual Arts,40.721238,-73.991385,cultural_center,-1
+520,"City Lights Youth Theatre, Inc.","630 Ninth Avenue, Suite 1411",10036,Theater,40.760038,-73.991449,cultural_center,-1
+521,"Midtown Management Group, Inc.","630 Ninth Avenue, Ste. 802",10036,Theater,40.760038,-73.991449,cultural_center,-1
+522,"Signature Theatre Company, Inc.","630 Ninth Avenue, Ste. 1106",10036,Theater,40.760038,-73.991449,cultural_center,-1
+523,"Pulse Ensemble Theatre, Inc.","248 West 35th Street, 15th Floor",10001,Theater,40.75224,-73.99154,cultural_center,-1
+524,"Melodia Women's Choir of NYC, Inc.","446 West 47th Street, Apt. 1B",10036,Music,40.762173,-73.991679,cultural_center,-1
+525,"Fluid Motion Theater & Film, Inc.","109 West 27th Street, Ste. 9A",10001,Theater,40.745735,-73.991689,cultural_center,-1
+526,"Glass Farm Ensemble, Inc.","109 West 27 Street, Apt. 5D",10001,Music,40.745735,-73.991689,cultural_center,-1
+527,"Ryan Repertory Company, Inc.",2445 Bath Avenue,11214,Theater,40.594879,-73.991819,cultural_center,-1
+528,"Actors Theatre Workshop, Inc.","145 W. 28th St., 3rd Floor",10001,Theater,40.746602,-73.991829,cultural_center,-1
+529,September Concert Foundation,601 West 57th St #37D,10019,Music,40.77052,-73.99187,cultural_center,-1
+530,"Clubbed Thumb, Inc.","440 Lafayette St, 4th Floor",10003,Theater,40.729327,-73.991907,cultural_center,-1
+531,Musical Theatre Factory,440 Lafayette Street,10003,Theater,40.729327,-73.991907,cultural_center,-1
+532,"InterSchool Orchestras of New York, Inc.",121 West 27th Street,10001,Music,40.745831,-73.991916,cultural_center,-1
+533,"Sign of the Times Theater Company, Inc.","80 East 11th Street, Suite 301C",10003,Theater,40.73275,-73.992019,cultural_center,-1
+534,Elizabeth Foundation for the Arts,"323 West 39th Street, 11th Floor",10018,Visual Arts,40.755707,-73.992045,cultural_center,-1
+535,"Primary Stages Company, Inc.","307 West 38th Street, Ste. 1510",10018,Theater,40.754946,-73.992175,cultural_center,-1
+536,New York Shakespeare Festival,425 Lafayette Street,10003,Theater,40.728932,-73.992218,cultural_center,-1
+537,"American Modern Ensemble, Inc.","400 West 43rd Street, Ste. 39-S",10036,Music,40.759173,-73.992326,cultural_center,-1
+538,"Cygnus Ensemble, Inc.","400 West 43rd Street, Apt. 11G",10036,Music,40.759173,-73.992326,cultural_center,-1
+539,"New York City Players, Inc.","400 West 43rd Street, Apt. 27N",10036,Theater,40.759173,-73.992326,cultural_center,-1
+540,Theater Breaking Through Barriers Corp.,"400 W. 43rd St., Apt. 43R",10036,Theater,40.759173,-73.992326,cultural_center,-1
+541,"Asian American Women Artists Alliance, Inc.",136 15th Street,11215,Visual Arts,40.667018,-73.99234,cultural_center,-1
+542,"Make Music New York, Inc.",419 Lafayette Street,10003,Music,40.728789,-73.992344,cultural_center,-1
+543,Brooklyn Historical Society,128 Pierrepont Street,11201,Museum,40.69502,-73.992387,cultural_center,-1
+544,"Alliance for the Development of Theatre Artists, Inc.","520 Eighth Ave., Suite 315",10018,Theater,40.753612,-73.992417,cultural_center,-1
+545,"Alliance of Resident Theatres / New York, Inc.","520 Eighth Avenue, Suite 319",10018,Theater,40.753612,-73.992417,cultural_center,-1
+546,"Fault Line Theatre, Inc.","520 8th Ave., Suite 318",10018,Theater,40.753612,-73.992417,cultural_center,-1
+547,"Gingold Theatrical Group, Inc.",520 8th Avenue,10018,Theater,40.753612,-73.992417,cultural_center,-1
+548,"Hourglass Group, Ltd.","520 Eighth Avenue, Suite 317a",10018,Theater,40.753612,-73.992417,cultural_center,-1
+549,"Keen Theater Company, Inc.","520 8th Avenue, Ste. 328",10018,Theater,40.753612,-73.992417,cultural_center,-1
+550,League of Professional Theatre Women,520 8th Avenue,10018,Theater,40.753612,-73.992417,cultural_center,-1
+551,"MA-YI Filipino Theatre Ensemble, Inc.","520 Eighth Avenue, Suite #309",10018,Theater,40.753612,-73.992417,cultural_center,-1
+552,"National Alliance for Musical Theatre, Inc.","520 Eighth Avenue, Ste. 301",10018,Theater,40.753612,-73.992417,cultural_center,-1
+553,National Asian American Theater Festival,"520 8th Avenue, Ste. 308",10018,Theater,40.753612,-73.992417,cultural_center,-1
+554,"National Asian American Theatre Co., Inc.","520 Eighth Avenue, Ste. 308",10018,Theater,40.753612,-73.992417,cultural_center,-1
+555,Origin Theatre Company,520 Eighth Avenue,10018,Theater,40.753612,-73.992417,cultural_center,-1
+556,"Pan Asian Repertory Theatre, Inc.","520 8th Avenue, Ste. 314",10018,Theater,40.753612,-73.992417,cultural_center,-1
+557,"Playwrights Realm, Inc.",520 Eighth Avenue,10018,Theater,40.753612,-73.992417,cultural_center,-1
+558,"Prospect Theater Company, Inc.","520 Eighth Avenue, Ste. 307, Third Floor",10018,Theater,40.753612,-73.992417,cultural_center,-1
+559,"Reverie Productions, Inc.","520 Eighth Avenue, Ste. 317",10018,Theater,40.753612,-73.992417,cultural_center,-1
+560,"Saratoga International Theater Institute, Inc.","520 Eighth Avenue, Ste. 310",10018,Theater,40.753612,-73.992417,cultural_center,-1
+561,Scandinavian American Theater Company,520 8th Ave,10018,Theater,40.753612,-73.992417,cultural_center,-1
+562,"Tectonic Theater Project, Inc.","520 Eighth Ave., #313",10018,Theater,40.753612,-73.992417,cultural_center,-1
+563,"Theatre Communications Group, Inc.","520 Eighth Avenue, 24th Floor",10018,Theater,40.753612,-73.992417,cultural_center,-1
+564,"Theatre Development Fund, Inc.","520 Eighth Avenue, Suite 801",10018,Theater,40.753612,-73.992417,cultural_center,-1
+565,"Theatre Now New York, Inc.",520 Eighth Avenue,10036,Theater,40.753612,-73.992417,cultural_center,-1
+566,Transport Group,520 Eighth Avenue,10018,Theater,40.753612,-73.992417,cultural_center,-1
+567,"Working Theatre Company, Inc.","520 Eighth Avenue, Suite 303",10018,Theater,40.753612,-73.992417,cultural_center,-1
+568,Fiji Theatre Company,"47 Great Jones Street, Sixth Floor",10012,Theater,40.726739,-73.992528,cultural_center,-1
+569,"Ensemble Studio Theatre, Inc.",545 West 52nd Street,10019,Theater,40.766642,-73.992538,cultural_center,-1
+570,"Medicine Show Theatre Ensemble, Inc.","549 West 52nd Street, Third Floor",10019,Theater,40.766669,-73.992603,cultural_center,-1
+571,"New Dramatists, Inc.",424 West 44th Street,10036,Theater,40.760107,-73.992604,cultural_center,-1
+572,"Lower East Side Printshop, Inc.","306 West 37th Street, 6th floor",10018,Visual Arts,40.754318,-73.99263,cultural_center,-1
+573,"Hetrick-Martin Institute, Inc.",2 Astor Place,10003,Visual Arts,40.730038,-73.992632,cultural_center,-1
+574,"Collaborative Arts Project 21, Inc.","18 West 18th Street,  6th Floor",10011,Theater,40.738859,-73.99266,cultural_center,-1
+575,"Midori Foundation, Inc.","352 Seventh Avenue, Ste. 301",10001,Music,40.748208,-73.992663,cultural_center,-1
+576,"Cliplight Theatre Company, Inc.","555 West 52nd Street, Apt. 806",10019,Theater,40.76671,-73.992697,cultural_center,-1
+577,"Woodshed Collective, Inc.",366 union Street #4M,11231,Theater,40.681198,-73.992796,cultural_center,-1
+578,"Plays for Living, Inc.","505 Eighth Avenue, Suite 1202",10018,Theater,40.753047,-73.99285,cultural_center,-1
+579,"Concerts in Motion, Inc.",341 W38th Street,10018,Music,40.755237,-73.992864,cultural_center,-1
+580,"T. Schreiber Studio, Inc.",151 West 26th Street,10001,Theater,40.745428,-73.992872,cultural_center,-1
+581,Theatreworks/USA Corp.,151 West 26th Street,10001,Theater,40.745428,-73.992872,cultural_center,-1
+582,"Interactive Drama for Education and Awareness in Schools, Inc.","98 4th Street, Ste. 305",11231,Theater,40.676625,-73.992966,cultural_center,-1
+583,CUE Art Foundation,137 West 25th Street,10001,Visual Arts,40.744681,-73.99302,cultural_center,-1
+584,"An Claidheamh Soluis, Inc.",553 West 51st Street,10019,Theater,40.766041,-73.993054,cultural_center,-1
+585,"OPERA America, Inc.","330 Seventh Avenue, 16th floor",10001,Music,40.747549,-73.993143,cultural_center,-1
+586,Rosie's Theater Kids,445 West 45th Street,10036,Theater,40.761177,-73.993156,cultural_center,-1
+587,"American Lyric Theater Center, Inc.",410 West 42nd Street,10036,Music,40.758652,-73.993185,cultural_center,-1
+588,"Epic Theatre Center, Inc.","410 West 42nd Street, #4E1",10036,Theater,40.758652,-73.993185,cultural_center,-1
+589,"New Group, Inc.",410 West 42 Street,10036,Theater,40.758652,-73.993185,cultural_center,-1
+590,"42nd Street Workshop, Inc.","312 West 36th Street, 4th Floor",10018,Theater,40.753755,-73.9932,cultural_center,-1
+591,Abingdon Theatre Company,"312 West 36th Street, 6th Floor",10018,Theater,40.753755,-73.9932,cultural_center,-1
+592,"Barrow Group, Inc.","312 West 36th Street, Apt. 4W",10018,Theater,40.753755,-73.9932,cultural_center,-1
+593,Toy Museum of New York,"157 Montague Street, 2nd Floor",11201,Museum,40.694504,-73.993213,cultural_center,-1
+594,New Museum of Contemporary Art,235 Bowery,10002,Museum,40.722424,-73.993225,cultural_center,-1
+595,"PERFORMA, Inc.","100 West 23rd Street, Fifth Floor",10011,Visual Arts,40.743081,-73.993237,cultural_center,-1
+596,"Terra Incognita, Inc.",7 East 14th Street,10003,Theater,40.735859,-73.993245,cultural_center,-1
+597,Alchemy Theatre Company of Manhattan,412 West 42nd Street,10036,Theater,40.758682,-73.993254,cultural_center,-1
+598,"Playwrights Horizons, Inc.",416 West 42nd Street,10036,Theater,40.758742,-73.993394,cultural_center,-1
+599,Yeshiva University Museum,15 West 16th Street,10011,Museum,40.737677,-73.993454,cultural_center,-1
+600,"Spiderwoman Theater Workshop, Inc.",333 DeGraw Street,11231,Theater,40.683108,-73.993546,cultural_center,-1
+601,"Brooklyn Youth Chorus Academy, Inc.",179 Pacific Street,11201,Music,40.689281,-73.993549,cultural_center,-1
+602,"Elder Craftsmen, Inc.","307 Seventh Avenue, Ste. 1401",10001,Visual Arts,40.746869,-73.993616,cultural_center,-1
+603,"Electronic Music Foundation, Inc.",307 Seventh Ave Room 1402,10001,Music,40.746869,-73.993616,cultural_center,-1
+604,"New York Festival of Song, Inc.",307 Seventh Avenue,10001,Music,40.746869,-73.993616,cultural_center,-1
+605,New York Stage and Film Co.,214 West 29th Street,10001,Theater,40.748148,-73.993623,cultural_center,-1
+606,Museum at Eldridge Street,12 Eldridge Street,10002,Museum,40.714733,-73.993713,cultural_center,-1
+607,"Manhattan New Music Project, Inc.",243 West 30th Street,10001,Music,40.749018,-73.993731,cultural_center,-1
+608,"National Association of Women Artists, Inc.","80 Fifth Avenue, Suite 1405",10011,Visual Arts,40.735807,-73.993772,cultural_center,-1
+609,"Vertical Player Repertory, Ltd.",219 Court St,11201,Music,40.686566,-73.993863,cultural_center,-1
+610,"White Box, Ltd.",329 Broome Street,10002,Visual Arts,40.719229,-73.9939,cultural_center,-1
+611,"Art21, Inc.","231 West 29th Street, #706",10001,Visual Arts,40.748299,-73.993937,cultural_center,-1
+612,"Manhattan Class Company, Inc.",231 West 29th Street,10001,Theater,40.748299,-73.993937,cultural_center,-1
+613,"Theatre Lab, Inc.","357 West 36th Street, 3rd Floor",10018,Music,40.754151,-73.994077,cultural_center,-1
+614,Mixteca Organization Inc,245 23rd St 2nd Floor,11215,Visual Arts,40.659942,-73.994096,cultural_center,-1
+615,"Irish Repertory Theatre Company, Inc.",132 West 22nd Street,10011,Theater,40.74268,-73.99437,cultural_center,-1
+616,"Mencius Society for the Arts, Inc.",243 Grand St. 2F,10002,Music,40.718321,-73.994408,cultural_center,-1
+617,Double Decker Productions,484 W.43rd Street,10036,Theater,40.76009,-73.994502,cultural_center,-1
+618,Xoregos Performing Company,"496 Ninth Avenue, Apt. 4-A",10018,Theater,40.755704,-73.994607,cultural_center,-1
+619,Finland Center Foundation,47 Fifth Avenue,10003,Music,40.73435,-73.994808,cultural_center,-1
+620,Salmagundi Club,47 Fifth Avenue,10003,Visual Arts,40.73435,-73.994808,cultural_center,-1
+621,"Bargemusic, Ltd.",Fulton Ferry Landing,11201,Music,40.703178,-73.994879,cultural_center,-1
+622,"ENSEMBLE MISE-EN, Inc.",24 Waverly Place  Rm 268,10003,Music,40.730398,-73.994938,cultural_center,-1
+623,Creative Capital Foundation,65 Bleecker Street,10012,Visual Arts,40.726204,-73.995173,cultural_center,-1
+624,"Blessed Unrest Theatre, Inc.","530 W. 45th Street, #4G",10036,Theater,40.762132,-73.995473,cultural_center,-1
+625,"Aquila Theatre Company, Inc.",100 Washington Square East,10003,Theater,40.73054,-73.995706,cultural_center,-1
+626,"Ascension Music Chorus and Orchestra, Inc.",12 West 11th Street,10011,Music,40.734328,-73.995775,cultural_center,-1
+627,"Residency Unlimited, Inc.",360 Court St. unit #4,11231,Visual Arts,40.681983,-73.996095,cultural_center,-1
+628,"Red Bull Theater, Inc.",191 SEVENTH AVENUE,10011,Theater,40.742949,-73.996467,cultural_center,-1
+629,Shakespeare Society,191 7th Avenue,10011,Theater,40.742949,-73.996467,cultural_center,-1
+630,"New Brooklyn Theater, Inc.",202 Baltic Street,11201,Theater,40.686918,-73.996564,cultural_center,-1
+631,New School,66 West 12th Street,10011,Music,40.735506,-73.996576,cultural_center,-1
+632,Grace Chorale of Brooklyn,254 Hicks Street,11201,Music,40.693706,-73.996596,cultural_center,-1
+633,"New York Studio School of Drawing, Painting & Sculpture",8 West 8th Street,10011,Visual Arts,40.732437,-73.996803,cultural_center,-1
+634,"Asia Art Archive in America, Inc.",43 Remsen Street (Garden Floor),11201,Visual Arts,40.694746,-73.996812,cultural_center,-1
+635,New Perspectives Theatre Company,"456 West 37th Street, Ground Floor",10018,Theater,40.756099,-73.996856,cultural_center,-1
+636,"Asian American Arts Centre, Inc.","26 Bowery, 3rd Floor",10013,Visual Arts,40.714906,-73.996909,cultural_center,-1
+637,"New Federal Theatre, Inc.",543 West 42nd Street,10036,Theater,40.76028,-73.997,cultural_center,-1
+638,"American Music Center, Inc.",322 8th Avenue,10001,Music,40.747294,-73.997023,cultural_center,-1
+639,Stickball Printmedia Arts,"100 Bleecker Street, Apt. 8F",10012,Visual Arts,40.727153,-73.997124,cultural_center,-1
+640,Museum of Comic and Cartoon Art,"594 Broadway, Ste. 401",10012,Museum,40.72496,-73.997157,cultural_center,-1
+641,New York City Master Chorale,511 Avenue of the Americas,10011,Music,40.736875,-73.997203,cultural_center,-1
+642,"Pearl Theatre Company, Inc.",555 West 42nd Street,10036,Theater,40.76037,-73.997213,cultural_center,-1
+643,Italian American Museum,155 Mulberry Street,10013,Museum,40.71915,-73.997395,cultural_center,-1
+644,"Keys to the Future Festival, Inc.","200 West 20th Street, Ste. 502",10011,Music,40.7424,-73.997441,cultural_center,-1
+645,"Choral Chameleon, Inc.",199 Carroll Street,11231,Music,40.681472,-73.997963,cultural_center,-1
+646,"Exit Art/The First World, Inc.","475 Tenth Avenue, 1st Floor",10018,Visual Arts,40.756154,-73.998018,cultural_center,-1
+647,Manhattan Theatre Source Incorporated,177 MacDougal Street,10011,Theater,40.732783,-73.998142,cultural_center,-1
+648,New York Neo-Futurists,219 West 19th Street,10011,Theater,40.741983,-73.998221,cultural_center,-1
+649,New York City Community Chorus at Holy Apostles,"35 West 8th Street, Apt. 3R",10011,Music,40.733068,-73.99825,cultural_center,-1
+650,Coyote REP Theatre Company,"360 W 28th St, Apt. 4A",10001,Theater,40.749479,-73.998318,cultural_center,-1
+651,"S.E.M. Ensemble, Inc.",25 Columbia Place,11201,Music,40.693107,-73.998604,cultural_center,-1
+652,Center for Italian Modern Art,421 Broome Street,10013,Museum,40.721252,-73.998662,cultural_center,-1
+653,"Theater Talk Productions, Inc.","426 Broome Street, Apt. 5F",10013,Theater,40.721304,-73.998734,cultural_center,-1
+654,Chelsea Symphony,245 Eighth Avenue,10011,Music,40.744901,-73.998784,cultural_center,-1
+655,Polaris Productions Inc.,245 8th Avenue,10011,Theater,40.744901,-73.998784,cultural_center,-1
+656,"Camera Club of New York, Inc.",126 Baxter Street,10013,Visual Arts,40.718142,-73.998954,cultural_center,-1
+657,"CityArts, Inc.","525 Broadway, Ste. 700",10012,Visual Arts,40.722852,-73.998972,cultural_center,-1
+658,Museum of Chinese in the Americas,"70 Mulberry Street, 2nd Floor",10013,Museum,40.716092,-73.999203,cultural_center,-1
+659,Greater Chinatown Community Association,105 Mosco Street,10013,Music,40.714459,-73.999347,cultural_center,-1
+660,Brooklyn Chamber Music Society,49 Cheever Place,11231,Music,40.685713,-73.999524,cultural_center,-1
+661,Other Side Productions,"64 Seventh Avenue, #3B",10011,Theater,40.738659,-73.999617,cultural_center,-1
+662,"Yangtze Repertory Theatre of America, Inc.","153 Centre Street, Suite 207",10013,Theater,40.717777,-74.000162,cultural_center,-1
+663,Music from China,"170 Park Row, Apt. 12D",10038,Music,40.713139,-74.000231,cultural_center,-1
+664,"NY Artists Unlimited, Inc.","212 West 14th Street, Ste. 2A",10011,Theater,40.738827,-74.000357,cultural_center,-1
+665,"Recording Artists' Development, Inc.",17 Gay Street #8,10014,Music,40.733645,-74.000393,cultural_center,-1
+666,"Brooklyn Theatre Arts Project, Inc.",1618 76th Street,11214,Theater,40.615389,-74.000936,cultural_center,-1
+667,"Golden Fleece Theatre Company, Ltd.","70A Greenwich Avenue, Apt. 256",10011,Music,40.736395,-74.000985,cultural_center,-1
+668,"Canopy Canopy Canopy, Inc.","264 Canal Street, Suite 3W",10013,Visual Arts,40.718752,-74.000996,cultural_center,-1
+669,Richard Allen Center for Culture and Art,40 Peck Slip,10038,Theater,40.707712,-74.001508,cultural_center,-1
+670,"Rattlestick Productions, Inc.",224 Waverly Place,10014,Theater,40.736027,-74.001855,cultural_center,-1
+671,"AHL Foundation, Inc.","420 West 23rd Street, #7A",10011,Visual Arts,40.746836,-74.002162,cultural_center,-1
+672,Independent Curators International,401 Broadway,10013,Visual Arts,40.71871,-74.002482,cultural_center,-1
+673,"Soho Repertory Theatre, Inc.",401 Broadway,10013,Theater,40.71871,-74.002482,cultural_center,-1
+674,"Location One, Inc.",26 Greene Street,10013,Visual Arts,40.721172,-74.002576,cultural_center,-1
+675,"Drawing Center, Inc.",35 Wooster Street,10013,Museum,40.722292,-74.002731,cultural_center,-1
+676,Access Theater,380 Broadway,10013,Theater,40.718112,-74.002958,cultural_center,-1
+677,"Blue Coyote Theater Group, Inc.","380 Broadway, 4th Floor",10013,Theater,40.718112,-74.002958,cultural_center,-1
+678,"Contemporary Art for America, Inc.","330 West 15th Street, Suite 5D",10011,Museum,40.740866,-74.003046,cultural_center,-1
+679,Divaria Productions Inc,63 Thompson Street Apt 4D,10012,Music,40.724211,-74.0032,cultural_center,-1
+680,Leslie-Lohman Museum of Gay and Lesbian Art,26 Wooster Street,10013,Museum,40.721705,-74.003204,cultural_center,-1
+681,Artists Space,55 Walker Street,10013,Visual Arts,40.718952,-74.003268,cultural_center,-1
+682,"Universal Theater Alliance, Inc.",100 Summit Street,11231,Theater,40.682186,-74.003324,cultural_center,-1
+683,South Street Seaport Museum,12 Fulton Street,10038,Museum,40.706631,-74.003495,cultural_center,-1
+684,Flux Factory,39-31 29th Street,11101,Visual Arts,40.660464,-74.003914,cultural_center,-1
+685,Astoria Big Band,"161 Sixth Avenue, 14th floor",10013,Music,40.725677,-74.003976,cultural_center,-1
+686,"Flying Fig Theater, Inc.","161 Sixth Avenue, 14th Floor",10013,Theater,40.725677,-74.003976,cultural_center,-1
+687,Lindsay's Theatre,"161 Sixth Avenue, 14th Floor",10013,Theater,40.725677,-74.003976,cultural_center,-1
+688,Michael Chekhov Theatre Company,"161 Sixth Avenue, 14th Floor",10013,Theater,40.725677,-74.003976,cultural_center,-1
+689,Children's Theatre Company of New York,526 West 26th Street,10001,Theater,40.750094,-74.003999,cultural_center,-1
+690,International Print Center New York,"526 West 26th Street, Room 824",10001,Visual Arts,40.750094,-74.003999,cultural_center,-1
+691,"Visual AIDS for the Arts, Inc.","526 West 26th Street, Ste. 510",10001,Visual Arts,40.750094,-74.003999,cultural_center,-1
+692,T.O.A.S.T.,50 White Street,10013,Visual Arts,40.718521,-74.004098,cultural_center,-1
+693,Synagogue for the Arts,49 White Street,10013,Visual Arts,40.718526,-74.004156,cultural_center,-1
+694,"Primary Information, Inc.",41 Grand Street,10013,Visual Arts,40.722575,-74.004174,cultural_center,-1
+695,Lesbian & Gay Big Apple Corps,332 Bleecker Street,10014,Music,40.733529,-74.004352,cultural_center,-1
+696,"TheaterTweed, Inc.","332 Bleecker Street, #G-36",10014,Theater,40.733529,-74.004352,cultural_center,-1
+697,"stageFARM, Inc.",302A West 12th Street,10014,Theater,40.737539,-74.004561,cultural_center,-1
+698,ApexArt Curatorial Program,291 Church Street,10013,Visual Arts,40.719084,-74.004654,cultural_center,-1
+699,Atlantic Theater Company,"76 Ninth Avenue, Ste. 537",10011,Theater,40.741915,-74.004659,cultural_center,-1
+700,"Ellen Beckerman & Company, Inc.","64 Fulton Street, Ste. 403",10038,Theater,40.708769,-74.005136,cultural_center,-1
+701,"Drama League of New York, Inc.",32 Avenue of the Americas,10013,Theater,40.72008,-74.005184,cultural_center,-1
+702,"Cherry Lane Alternative, Inc.",38 Commerce Street,10014,Theater,40.731451,-74.005203,cultural_center,-1
+703,"Ontological-Hysteric Theater, Inc.",260 West Broadway,10013,Theater,40.720404,-74.00544,cultural_center,-1
+704,"Performing Artservices, Inc.",260 West Broadway,10013,Theater,40.720404,-74.00544,cultural_center,-1
+705,Dia Center for the Arts,"535 West 22nd Street, 4th Floor",10011,Visual Arts,40.747495,-74.005756,cultural_center,-1
+706,"Printed Matter, Inc.",231 Eleventh Avenue,10001,Visual Arts,40.750489,-74.005858,cultural_center,-1
+707,"Ripple Effect Artists, Inc.",601 W. 26th Street,10001,Theater,40.750934,-74.005955,cultural_center,-1
+708,"globalFEST, Inc.",601 W 26th Street,10001,Music,40.750934,-74.005955,cultural_center,-1
+709,VillarHauser Theatre Development Fund,450 West 17th Street,10011,Theater,40.74369,-74.005955,cultural_center,-1
+710,Ground UP Productions,72 Barrow St. #2N,10014,Theater,40.731619,-74.005975,cultural_center,-1
+711,"ArtCouncil, Inc.","210 Eleventh Avenue, Ste. 503",10001,Visual Arts,40.74986,-74.006291,cultural_center,-1
+712,Chelsea Art Museum,556 West 22nd Street,10011,Museum,40.747733,-74.006374,cultural_center,-1
+713,"Meet the Composer, Inc.","90 John Street, Ste. 312",10038,Music,40.708173,-74.006464,cultural_center,-1
+714,"Rector, Church Wardens, Vestrymembers of the Church of St. Luke in the Field",487 Hudson Street,10014,Music,40.732522,-74.006498,cultural_center,-1
+715,"Friends of the New York City Fire Department Collection, Inc.",278 Spring Street,10013,Museum,40.725767,-74.006851,cultural_center,-1
+716,"Street Lab, Inc.",6 Varick St #10B,10013,Visual Arts,40.719451,-74.006861,cultural_center,-1
+717,"Learning Leaders, Inc.","80 Maiden Lane, 11th Floor",10038,Visual Arts,40.707116,-74.007329,cultural_center,-1
+718,"Vortex Theater Company, Inc.",164 Eleventh Avenue,10011,Theater,40.748345,-74.007344,cultural_center,-1
+719,"Federation Employment & Guidance Service, Inc.",315 Hudson Street,10013,Theater,40.72631,-74.00749,cultural_center,-1
+720,Herbert Berghof Studio,120 Bank Street,10014,Theater,40.736299,-74.007495,cultural_center,-1
+721,"HB Playwrights Foundation, Inc.",122 Bank Street,10014,Theater,40.73629,-74.007556,cultural_center,-1
+722,Children's Museum of the Arts,103 Charlton Street,10014,Museum,40.7274,-74.008006,cultural_center,-1
+723,New York City Police Museum,100 Old Slip,10005,Museum,40.703279,-74.008039,cultural_center,-1
+724,"Epiphany Theater Company, Inc.","154 Christopher Street, Ste. 2B",10014,Theater,40.73273,-74.008129,cultural_center,-1
+725,"IRT Theater, Inc.","154 Christopher Street, Suite 3B",10014,Theater,40.73273,-74.008129,cultural_center,-1
+726,"Soho Think Tank, Inc.",154 Christopher Street,10014,Theater,40.73273,-74.008129,cultural_center,-1
+727,Theatre for a New Audience,"154 Christopher Street, Ste. 3D",10014,Theater,40.73273,-74.008129,cultural_center,-1
+728,"Wings Theatre Company, Inc.",154 Christopher Street,10014,Theater,40.73273,-74.008129,cultural_center,-1
+729,"White Columns, Inc.",91 Horatio Street,10014,Visual Arts,40.738763,-74.008332,cultural_center,-1
+730,"Studio Dante, Inc.",499 Canal Street,10013,Theater,40.724126,-74.008493,cultural_center,-1
+731,Drama Dept. Incorporated,"9 Desbrosses Street, 2nd floor",10013,Theater,40.723343,-74.008698,cultural_center,-1
+732,Artopolis Development,431 45th Street,11220,Visual Arts,40.648754,-74.008793,cultural_center,-1
+733,"National Theater Workshop of the Handicapped, Inc.",535 Greenwich Street,10013,Theater,40.726917,-74.00893,cultural_center,-1
+734,"Naked Angels, Ltd.",151 Bank St,10014,Theater,40.736112,-74.009053,cultural_center,-1
+735,"LAByrinth, Inc.",155 Bank Street,10014,Theater,40.736095,-74.009205,cultural_center,-1
+736,Museum of American Finance,48 Wall Street,10005,Museum,40.706331,-74.009396,cultural_center,-1
+737,"Welltone New Music, Inc.",20 Vesey Street,10007,Music,40.711843,-74.009562,cultural_center,-1
+738,"Sunset Park School of Music, Inc.",4520 4th Avenue,11220,Music,40.649111,-74.009845,cultural_center,-1
+739,Triangle Arts Association,"20 Jay Street, Suite 318",11201,Visual Arts,40.718068,-74.010191,cultural_center,-1
+740,"International Contemporary Ensemble Foundation, Inc.","4306 Third Avenue, 4th floor",11232,Music,40.651501,-74.010631,cultural_center,-1
+741,September 11th Widows and Victim Families Association,"22 Cortlandt Street, Suite 801",10007,Museum,40.710223,-74.010897,cultural_center,-1
+742,Tug Pegasus Preservation Project,83 Murray Street,10007,Museum,40.714821,-74.011107,cultural_center,-1
+743,"Sons of the Revolution in the State of New York, Inc.",54 Pearl Street,10004,Museum,40.703496,-74.011375,cultural_center,-1
+744,"New Stage Theatre Company, Inc.","75 Broad Street, Suite 0406",10004,Theater,40.704487,-74.011556,cultural_center,-1
+745,Metro Chamber Orchestra Incorporated,8821 16th Avenue,11214,Music,40.605702,-74.011852,cultural_center,-1
+746,"Kentler International Drawing Space, Inc.",353 Van Brunt Street,11231,Visual Arts,40.677105,-74.013177,cultural_center,-1
+747,"Discipleship Outreach Ministries, Inc",5220 4th Avenue,11220,Music,40.645191,-74.013924,cultural_center,-1
+748,"National September 11 Memorial & Museum at the World Trade Center Foundation, Inc.",200 Liberty Street,10281,Museum,40.711425,-74.015442,cultural_center,-1
+749,Brooklyn Waterfront Artist Coalition,"481 Van Brunt Street, Unit 7",11231,Visual Arts,40.674365,-74.016392,cultural_center,-1
+750,"Target Margin Theater, Inc.",232 52nd Street,11220,Theater,40.647469,-74.017269,cultural_center,-1
+751,Waterfront Museum,"290 Conover Street, Pier 44",11231,Museum,40.675122,-74.017723,cultural_center,-1
+752,Skyscraper Museum,39 Battery Place,10280,Museum,40.705869,-74.017994,cultural_center,-1
+753,Folksbiene Yiddish Theatre,36 Battery Place,10280,Theater,40.705806,-74.018019,cultural_center,-1
+754,Museum of Jewish Heritage ï¿½ A Living Memorial to the Holocaust,36 Battery Place,10280,Museum,40.705806,-74.018019,cultural_center,-1
+755,"Bella Voce, Inc.",659 85th Street,11228,Music,40.619946,-74.021991,cultural_center,-1
+756,20/20 Vision for Schools,8225 5th Avenue #323,11209,Visual Arts,40.624082,-74.024838,cultural_center,-1
+758,"Boricua Festival Committee, Inc.","313 97th Street, #1B",11209,Music,40.615625,-74.033804,cultural_center,-1
+759,"Narrows Community Theater, Inc.","97-28 Third Avenue, #527",11209,Theater,40.615504,-74.034322,cultural_center,-1
+760,Ridge Chorale Inc.,80 80th Street,11209,Theater,40.629519,-74.036426,cultural_center,-1
+761,League of Composers,34-29 80th Street,11372,Music,40.630333,-74.038459,cultural_center,-1
+762,"Look & Listen, Inc.",34-29 80th Street,11372,Music,40.630333,-74.038459,cultural_center,-1
+763,"Friends of Alice Austen House, Inc.",2 Hylan Boulevard,10305,Museum,40.615561,-74.06322,cultural_center,-1
+764,Museum of Maritime Navigation and Communication,1208 Bay Street,10305,Museum,40.613825,-74.065952,cultural_center,-1
+765,Verrazano Foundation,777 Seaview Avenue,10305,Visual Arts,40.579501,-74.078252,cultural_center,-1
+766,"Harbor Lights Theater Company, Inc.",38 Westervelt Avenue,10301,Theater,40.646724,-74.086738,cultural_center,-1
+767,Joseph Gheraldi Playwright's Theatre,252 Reid Avenue,10305,Theater,40.594306,-74.087239,cultural_center,-1
+768,"Musical Chairs Chamber Ensemble, Inc.",19 Ridgefield Avenue,10304,Music,40.613055,-74.088484,cultural_center,-1
+769,Wagner College Young Musician's Competition,Wagner College,10301,Music,40.615583,-74.094478,cultural_center,-1
+770,"Staten Island Philharmonic Orchestra, Inc.",14 Brentwood Avenue,10301,Music,40.638956,-74.102978,cultural_center,-1
+771,"Viva Voce Chamber Ensemble, Inc.",14 Brentwood Avenue,10301,Music,40.638956,-74.102978,cultural_center,-1
+772,"Art Lab, Inc.",1000 Richmond Terrace,10301,Visual Arts,40.645232,-74.104674,cultural_center,-1
+773,Noble Maritime Collection,1000 Richmond Terrace,10301,Museum,40.645232,-74.104674,cultural_center,-1
+774,"Riverside Opera Company, Inc.","1000 Richmond Terrace, Box 2-8",10301,Music,40.645232,-74.104674,cultural_center,-1
+775,Staten Island Children's Museum,"1000 Richmond Terrace, Building M",10301,Museum,40.645232,-74.104674,cultural_center,-1
+776,Staten Island Institute of Arts and Sciences,1000 Richmond Terrace,10301,Museum,40.645232,-74.104674,cultural_center,-1
+777,"Serenade at Historic Christ Church, Inc.",228 Bard Avenue,10310,Music,40.638936,-74.107432,cultural_center,-1
+778,IlluminArt Productions,29 Putters Court,10301,Theater,40.620227,-74.107855,cultural_center,-1
+779,"Jacques Marchais Center of Tibetan Arts, Inc.",338 Lighthouse Avenue,10306,Museum,40.576285,-74.138645,cultural_center,-1
+780,South Asian Cultural Preservation and Education Center,115 John Street,10302,Music,40.635874,-74.143446,cultural_center,-1
+781,"Enrichment Through the Arts, Inc.",11 Borman Avenue,10314,Theater,40.592473,-74.154176,cultural_center,-1
+782,Saint Alban's Episcopal Church,76 Saint Alban's Place,10312,Music,40.544177,-74.161016,cultural_center,-1
+783,"Theatre Rehabilitation for Youth, Inc.",58 Farragut Avenue,10303,Theater,40.621298,-74.165082,cultural_center,-1
+784,Sandy Ground Historical Society,1538 Woodrow Road,10309,Museum,40.541234,-74.21656,cultural_center,-1
+785,"Staten Island Chamber Music Players, Inc.",27 Storer Avenue,10309,Music,40.539203,-74.236223,cultural_center,-1
+786,"Conference House Association, Inc.",298 Satterlee Street,10307,Museum,40.502357,-74.25144,cultural_center,-1

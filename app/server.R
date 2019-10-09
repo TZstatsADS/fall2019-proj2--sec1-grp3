@@ -12,9 +12,9 @@ library(leaflet.extras)
 
 ########### PAGE 1 SCRIPTS ###############
 
-rest_cult_data <-read.csv("../data/rest_and_cult_data.csv")
-rest_data <- read.csv("../data/rest_data.csv")
-cult_data <- read.csv("../data/cult_data.csv")
+rest_cult_data <-read.csv("rest_and_cult_data.csv")
+rest_data <- read.csv("rest_data.csv")
+cult_data <- read.csv("cult_data.csv")
 
 man.nbhd=c("all neighborhoods", 
            "Central Harlem", 
