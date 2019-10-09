@@ -33,7 +33,12 @@ On the 'Airbnb' page, the first impression a tourist will get is the distributio
 
 
 + **Contribution statement**: ([default](doc/a_note_on_contributions.md))<br>
-
+Data acquisition and manipulation: Everyone
+UI Design: Everyone
+Dining+Activities page: Daniel Weiss, Jerry Zhang
+Airbnb page: Xiwen Chen, Nichole Yao, Justine Zhang
+Contact page: Justine Zhang
+Presentation: Justine Zhang
 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is organized as follows.
