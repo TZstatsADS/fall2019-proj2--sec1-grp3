@@ -9,33 +9,15 @@ library(ggplot2)
 navbarPage("Airbnb Recommendation",
            ######Page 1 ##################
            
-           tabPanel("Overview",
-                    div(class="outer",
-                        tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0; opacity: 0.92}"),
-                        leafletOutput("map1",height = 800, width = 'auto'),
-                        
-                        absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
-                                      draggable = TRUE, top = 50, left = 0, right = 40, bottom = "auto",
-                                      width = 300, height = "auto", h3("Please Specify:"),
-                                      selectInput("asdf", label = h4("Centers"), 
-                                                  choices = list("All Cultural Centers",
-                                                                 "Music", 
-                                                                 "Theater",
-                                                                 "Visual Arts", "Museum"), selected = "All Days"),
-                                      
-                                      sliderInput("Price", "$/night", label = "What is your nightly price range?",
-                                                  min = 0, max = 500, value = 100, step=1),
-                                      sliderInput("rating_sadrange", label = h4("Rating"), min = 0, max = 1, value = 0.8)
-                        ))),
-           
-           tabPanel("Dining Options",
+           tabPanel("Dining + Activities",
                     div(class="outer",
                         tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0; opacity: 0.92}"),
                         leafletOutput("page_map",height = 800, width = 'auto'),
                         
-                        absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
+                        absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,style="padding: 0 20px 20px 20px;",
+                                      style = "opacity: 0.75",
                                       draggable = TRUE, top = 50, left = 0, right = 40, bottom = "auto",
-                                      width = 300, height = "auto", h3("Select:"),
+                                      width = 330, height = "auto", h3("Select:"),
                                       checkboxInput("rest_checkbox", label = "View Restauraunts", 
                                                     value = TRUE),
                                       
@@ -53,11 +35,13 @@ navbarPage("Airbnb Recommendation",
                                                   choices = list("All Cultural Centers",
                                                                  "Music", 
                                                                  "Theater",
-                                                                 "Visual Arts", "Museum"), selected = "All Cultural Centers")
+                                                                 "Visual Arts", "Museum"), selected = "All Cultural Centers"),
+                                      
+                                      checkboxInput("heatmap", label = h5("Heatmap: "), value= FALSE)
                         ))),
            
            ######Page 2 ##################
-           tabPanel("Customization",
+           tabPanel("Housing",
                     
                     div(class="outer",
                         tags$style(".outer {position: fixed; top: 41px; left: 20px; right: 0; bottom: 0; overflow: hidden; padding: 0}"),

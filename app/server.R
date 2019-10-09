@@ -9,6 +9,7 @@ library(rgdal)
 library(tigris)
 library(geojsonio)
 library(hash)
+library(leaflet.extras)
 
 
 ## LOAD DATA
@@ -38,6 +39,18 @@ popup_cult = paste0('<strong>Name: </strong><br>', cult_data$Name,
                     '<br><strong>Type:</strong><br>', cult_data$Type,
                     '<br><strong>Address:</strong><br>', cult_data$Address)
 
+cuis_opts <- c("All Cuisine",
+             "American", "Mexican", "Chinese", "Korean", "Japanese",
+             "Italian", "Vietnamese", "Healthy", "Pizza", "Thai")
+
+rest_colors <- colorFactor("Set3",cuis_opts )
+
+cult_opts <- c("All Cultural Centers",
+               "Music", 
+               "Theater",
+               "Visual Arts", "Museum")
+
+cult_colors <- colorFactor("Pastel1",cult_opts )
 
 
 ########### PAGE 2 SCRIPTS ###############
@@ -180,42 +193,74 @@ shinyServer(function(input, output) {
     rest_data <- rest_data %>% filter(Rating >= input$yelp_slider[1])
     rest_data <- rest_data %>% filter(Rating <= input$yelp_slider[2])
     
+    ~rest_colors(input$Cuisine)
+    ~cult_colors(input$Centers)
     
     map_load2 <-  rbind(rest_data,cult_data)
     
-    if (input$rest_checkbox == TRUE && input$cult_checkbox == FALSE) {
-      leaflet(rest_data) %>%
-        addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
-        addCircleMarkers(data = rest_data,
-                         color = '#ff5050', popup = popup_rest,
-                         opacity = 0.5, radius = 0.5)
+    
+    if (input$heatmap==FALSE){
+      if (input$rest_checkbox == TRUE && input$cult_checkbox == FALSE) {
+        leaflet(rest_data) %>%
+          addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
+          addCircleMarkers(data = rest_data,
+                           color = ~rest_colors(input$Cuisine), popup = popup_rest,
+                           opacity = 0.5, radius = 0.5)
+        
+      }
+      
+      else if (input$cult_checkbox == TRUE && input$rest_checkbox == FALSE) {
+        leaflet(cult_data) %>%
+          addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
+          addCircleMarkers(data = cult_data,
+                           color = ~cult_colors(input$Centers), popup = popup_cult,
+                           opacity = 0.5, radius = 0.5)
+        
+      }  
+      
+      else {
+        
+        FILE1 <- rest_data
+        FILE2 <- cult_data
+        
+        leaflet(rbind(FILE1, FILE2)) %>%
+          addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
+          addCircleMarkers(data = FILE1,
+                           color = ~rest_colors(input$Cuisine), popup = popup_rest,
+                           opacity = 0.5, radius = 0.5) %>%
+          addCircleMarkers(data = FILE2,
+                           color = ~cult_colors(input$Centers), popup = popup_cult,
+                           opacity = 0.5, radius = 0.5)
+        
+      }
+    }
+    else{
+      if (input$rest_checkbox == TRUE && input$cult_checkbox == FALSE) {
+        leaflet(rest_data) %>%
+          addTiles()%>% addProviderTiles("CartoDB.Positron")%>%
+          addWebGLHeatmap(opacity = 0.9,size=600)
+      }
+      else if (input$cult_checkbox == TRUE && input$rest_checkbox == FALSE) {
+        leaflet(cult_data) %>%
+          addTiles()%>% addProviderTiles("CartoDB.Positron")%>%
+          addWebGLHeatmap(opacity = 0.9,size=600)
+      }
+      else {
+        
+        
+        leaflet(rbind(rest_data, cult_data)) %>%
+          addTiles()%>% addProviderTiles("CartoDB.Positron")%>%
+          addWebGLHeatmap(opacity = 0.9,size=600)
+      }
+      
+      
+      
       
     }
-
-    else if (input$cult_checkbox == TRUE && input$rest_checkbox == FALSE) {
-      leaflet(cult_data) %>%
-        addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
-        addCircleMarkers(data = cult_data,
-                         color = '#33ccff', popup = popup_cult,
-                         opacity = 0.5, radius = 0.5)
-      
-    }  
-      
-    else {
-      
-      FILE1 <- rest_data
-      FILE2 <- cult_data
-      
-      leaflet(rbind(FILE1, FILE2)) %>%
-        addTiles() %>%addProviderTiles("CartoDB.Positron") %>%
-        addCircleMarkers(data = FILE1,
-                         color = '#ff5050', popup = popup_rest,
-                         opacity = 0.5, radius = 0.5) %>%
-        addCircleMarkers(data = FILE2,
-                         color = '#33ccff', popup = popup_cult,
-                         opacity = 0.5, radius = 0.5)
-      
-    }
+    
+    
+    
+    
     
     #leaflet(map_load2) %>% addTiles()%>% addProviderTiles("CartoDB.Positron")%>% addCircles(lng = ~Longitude, lat = ~Latitude)
 
