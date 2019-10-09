@@ -37,6 +37,7 @@ Data acquisition and manipulation: Everyone<br>
 UI Design: Everyone<br>
 Dining+Activities page: Daniel Weiss, Jerry Zhang<br>
 Airbnb page: Xiwen Chen, Nichole Yao, Justine Zhang<br>
+Yelp API Data Scraping: Jerry Zhang <br>
 Contact page: Justine Zhang<br>
 Presentation: Justine Zhang
 
