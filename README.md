@@ -8,8 +8,8 @@
 https://jujuzyt.shinyapps.io/app_new/
 
 Term: Fall 2019
+Team : Section 1 Group 3
 
-+ Team : Section 1 Group 3
 + **Team Members**: 
 	+ Xiwen Chen | xc2463@columbia.edu
 	+ Daniel Weiss | dmw2180@columbia.edu
