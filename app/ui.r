@@ -6,7 +6,8 @@ library(ggplot2)
 
 
 
-navbarPage(theme = shinytheme( "flatly"), "Airbnb Helper",
+navbarPage(theme = shinytheme( "flatly"), 
+           p("Airbnb Helper", style = "font-family: 'Lobster', cursive;" ),
            ######Page 1 ##################
            
            tabPanel("Dining + Activities",
@@ -39,7 +40,7 @@ navbarPage(theme = shinytheme( "flatly"), "Airbnb Helper",
                                                   choices = list("All Cuisine",
                                                                  "American", "Mexican", "Chinese", "Korean", "Japanese",
                                                                  "Italian", "Vietnamese", "Healthy", "Pizza", "Thai"), selected = "All Cuisine"),
-                                      sliderInput("yelp_slider", label = h6("Yelp Rating"),
+                                      sliderInput("yelp_slider", label = h4("Yelp Rating"),
                                                   min = 1, max = 5, value = c(3, 4)),
                                       
                                       checkboxInput("cult_checkbox", label = "View Cultural Centers", 
